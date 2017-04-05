@@ -19,7 +19,7 @@
 
 	
 	<link rel="stylesheet" href="libs/bootstrap-grid/bootstrap-grid.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/font-awesome.min.css">
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css">
 	<link rel="stylesheet" href="css/main.css">
 
