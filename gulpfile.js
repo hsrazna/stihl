@@ -17,13 +17,13 @@ var gulp           = require('gulp'),
 // Скрипты проекта
 gulp.task('scripts', function() {
 	return gulp.src([
-		'app/libs/jquery/dist/jquery.min.js',
+		// 'app/libs/jquery/dist/jquery.min.js',
 		// 'app/libs/az-select/az-select.js',
 		// 'app/libs/bootstrap/bootstrap.min.js',
-		'app/libs/owl.carousel/owl.carousel.min.js',
+		// 'app/libs/owl.carousel/owl.carousel.min.js',
 		// 'app/libs/mmenu/jquery.mmenu.min.all.js',
 		// 'app/libs/superfish-master/dist/js/superfish.min.js',
-		'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js',
+		// 'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js',
 		// 'app/libs/jquery.jcarousellite/jquery.jcarousellite.min.js',
 		'app/js/common.js', // Всегда в конце
 		'app/js/common2.js', // Всегда в конце
@@ -36,7 +36,7 @@ gulp.task('scripts', function() {
 
 gulp.task('browser-sync', function() {
 	browserSync({
-		proxy: "irbis.loc",
+		proxy: "gulp-php.loc",
 		// server: {
 		// 	baseDir: 'app'
 		// },
@@ -60,7 +60,7 @@ gulp.task('sass', function() {
 
 gulp.task('watch', ['sass', 'scripts', 'browser-sync'], function() {
 	gulp.watch('app/sass/**/*.sass', ['sass']);
-	gulp.watch(['libs/**/*.js', 'app/js/common.js'], ['scripts']);
+	gulp.watch(['libs/**/*.js', 'app/js/common.js', 'app/js/common2.js'], ['scripts']);
 	gulp.watch('app/*.html', browserSync.reload);
 	gulp.watch('app/**/*.php', browserSync.reload);
 });

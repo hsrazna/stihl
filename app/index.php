@@ -18,6 +18,9 @@
 	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
 
 	
+	<link rel="stylesheet" href="libs/bootstrap-grid/bootstrap-grid.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css">
 	<link rel="stylesheet" href="css/main.css">
 
 
@@ -51,6 +54,9 @@
 		</form>
 	</div>
 
+	<script src="libs/jquery/dist/jquery.min.js"></script>
+	<!-- <script src="libs/bootstrap/bootstrap.min.js"></script> -->
+	<script src="libs/owl.carousel/owl.carousel.min.js"></script>
 	<script src="js/scripts.js"></script>
 
 </body>
