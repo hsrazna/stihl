@@ -29,7 +29,15 @@ gulp.task('scripts', function() {
 		'app/js/common2.js', // Всегда в конце
 		])
 	.pipe(concat('scripts.js'))
-	// .pipe(uglify())
+	// .pipe(uglify('scripts.min.js'))
+	.pipe(gulp.dest('app/js'))
+	.pipe(browserSync.reload({stream: true}));
+});
+
+gulp.task('min-scripts', function() {
+	return gulp.src('app/js/scripts.js')
+	.pipe(uglify())
+	.pipe(rename('scripts.min.js'))
 	.pipe(gulp.dest('app/js'))
 	.pipe(browserSync.reload({stream: true}));
 });
@@ -58,7 +66,16 @@ gulp.task('sass', function() {
 	.pipe(browserSync.reload({stream: true}));
 });
 
-gulp.task('watch', ['sass', 'scripts', 'browser-sync'], function() {
+gulp.task('min-css', function() {
+	return gulp.src('app/css/main.css')
+	.pipe(rename("main.min.css"))
+	.pipe(autoprefixer(['last 15 versions']))
+	.pipe(cleanCSS())
+	.pipe(gulp.dest('app/css'))
+	.pipe(browserSync.reload({stream: true}));
+});
+
+gulp.task('watch', ['sass', 'min-css', 'scripts', 'min-scripts', 'browser-sync'], function() {
 	gulp.watch('app/sass/**/*.scss', ['sass']);
 	gulp.watch(['libs/**/*.js', 'app/js/common.js', 'app/js/common2.js'], ['scripts']);
 	gulp.watch('app/*.html', browserSync.reload);

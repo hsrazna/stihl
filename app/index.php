@@ -21,7 +21,7 @@
 	<link rel="stylesheet" href="libs/bootstrap-grid/bootstrap-grid.css">
 	<link rel="stylesheet" href="libs/font-awesome.min.css">
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/main.min.css">
 
 
 	<!-- Chrome, Firefox OS and Opera -->
@@ -43,7 +43,7 @@
 	<?php require_once "include/footer.php"; ?>
 
 	<div class="hidden">
-		<form id="small-dialog" class="zoom-anim-dialog common-form">
+		<!-- <form id="small-dialog" class="zoom-anim-dialog common-form">
 			<div class="ah-upimg">
 				<img src="img/ah-popimg.png" style="width: 110px; height: 120px;" alt="ah-popimg.png">
 			</div>
@@ -51,13 +51,13 @@
 			<span class="form-subtitle">И НАШ МЕНЕДЖЕР СВЯЖЕТСЯ С ВАМИ В ТЕЧЕНИИ ОДНОЙ МИНУТЫ</span>
 			<input type="text" class="phone" name="tel" placeholder="+7 (___) ___-__-__">
 			<input type="submit" value="ОСТАВИТЬ ЗАЯВКУ">
-		</form>
+		</form> -->
 	</div>
 
 	<script src="libs/jquery/dist/jquery.min.js"></script>
 	<!-- <script src="libs/bootstrap/bootstrap.min.js"></script> -->
-	<script src="libs/owl.carousel/owl.carousel.min.js"></script>
-	<script src="js/scripts.js"></script>
+	<!-- <script src="libs/owl.carousel/owl.carousel.min.js"></script> -->
+	<script src="js/scripts.min.js"></script>
 
 </body>
 </html>
