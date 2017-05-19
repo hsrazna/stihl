@@ -21,6 +21,7 @@
 	<link rel="stylesheet" href="libs/bootstrap-grid/bootstrap-grid.css">
 	<link rel="stylesheet" href="libs/font-awesome.min.css">
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css">
+	<link rel="stylesheet" href="libs/jscrollpane/jquery.jscrollpane.css">
 	<link rel="stylesheet" href="css/main.min.css">
 
 
@@ -71,6 +72,7 @@
 	</div>
 
 	<script src="libs/jquery/dist/jquery.min.js"></script>
+	<script src="libs/jscrollpane/jquery.jscrollpane.min.js"></script>
 	<!-- <script src="libs/bootstrap/bootstrap.min.js"></script> -->
 	<!-- <script src="libs/owl.carousel/owl.carousel.min.js"></script> -->
 	<script src="js/scripts.min.js"></script>
