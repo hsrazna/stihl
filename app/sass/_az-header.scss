@@ -1,0 +1,252 @@
+@import "vars";
+
+.az-header-background{
+	background: #2f373d;
+	min-height: 56px;
+}
+
+
+
+.az-header{}
+.az-header__logo{
+	width: 110px;
+	float: left;
+	padding-top: 8px;
+	@include mobile(992){
+		width: 245px;
+	}
+}
+.az-header__menu{
+	width: 16.66%;
+	float: right;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-right: -15px;
+	@include mobile(768){
+		width: 8.33%;
+	}
+}
+.az-header__control{
+	width: 33.33%;
+	float: right;
+	@include mobile(768){
+		width: 470px;
+		padding-right: 15px;
+	}
+	@include mobile(992){
+		padding-right: 0;
+	}
+}
+
+
+
+.az-logo{
+	display: block;
+	width: 100%;
+}
+.az-logo__img{
+	width: 100%;
+	height: auto;
+	@include mobile(992){
+		max-width: 120px;
+	}
+}
+.az-logo__text{
+	font-size: 12px;
+	font-family: "RobotoMedium";
+	color: #fff;
+	font-weight: normal;
+}
+
+
+
+.az-menu{
+	line-height: 56px;
+	font-size: 0;
+	text-align: right;
+	
+}
+.az-menu__icon{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0;
+	background: url(../img/az-menu-icon.png) no-repeat center;
+	width: 18px;
+	height: 30px;
+	&:hover{
+		background: url(../img/az-menu-icon-hover.png) no-repeat center;
+	}
+}
+.az-menu__list{
+	display: none;
+}
+.az-menu__list_on{
+	display: block;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	z-index: 3;
+	right: 0;
+	left: 0;
+	text-align: center;
+	top: 0;
+	background: rgba(47, 55, 61, 0.96);
+	animation: show-from-bottom .6s ease;
+	padding: 10px 0 95px;
+}
+.az-menu__item{
+	display: block;
+	line-height: 42px;
+	font-size: 0;
+}
+.az-menu__link{
+	font-size: 14px;
+	font-family: "RobotoMedium";
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: top;
+	letter-spacing: 0.016em;
+	&:active, &:focus{
+		color: #fff;
+		text-decoration: none;
+	}
+	&:hover{
+		text-decoration: none;
+		color: #f37a1f;
+	}
+}
+.az-menu__link_close{
+	font-size: 0;
+	display: inline-block;
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+	background: url(../img/az-close.png) no-repeat center;
+	margin: 25px 0;
+	&:hover{
+		background: url(../img/az-close-hover.png) no-repeat center;
+	}
+}
+
+@keyframes show-from-bottom{
+	from{
+		transform: translateY(-20px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+
+
+.az-exit{
+	font-family: "RobotoMedium";
+	font-size: 14px;
+	color: #fff;
+	background: url(../img/az-exit.png) no-repeat left center;
+	display: inline-block;
+	vertical-align: middle;
+	height: 18px;
+	line-height: 18px;
+	padding-left: 25px;
+	&:hover{
+		background: url(../img/az-exit-hover.png) no-repeat left center;
+	}
+}
+
+
+
+.az-control{
+	font-size: 0;
+	line-height: 56px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+.az-control__item{
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+	padding: 0 15px;
+	@include mobile(768){
+		width: auto;
+		margin-left: 45px;
+		padding: 0;
+	}
+}
+.az-control__manager{
+	font-family: "RobotoMedium";
+	font-size: 0;
+	color: #fff;
+	background: url(../img/az-manager.png) no-repeat center;
+	display: inline-block;
+	vertical-align: middle;
+	width: 16px;
+	height: 18px;
+	letter-spacing: 0.016em;
+	&:hover{
+		background: url(../img/az-manager-hover.png) no-repeat center;
+	}
+	@include mobile(768){
+		font-size: 14px;
+		background-position: left center;
+		padding-left: 30px;
+		height: 56px;
+		width: auto;
+		&:active, &:focus{
+			color: #fff;
+			text-decoration: none;
+		}
+		&:hover{
+			text-decoration: none;
+			color: #f37a1f;
+			background-position: left center;
+		}
+	}
+}
+.az-control__basket{
+	font-family: "RobotoMedium";
+	font-size: 0;
+	color: #fff;
+	background: url(../img/az-basket.png) no-repeat center;
+	display: inline-block;
+	vertical-align: middle;
+	width: 16px;
+	height: 18px;
+	letter-spacing: 0.016em;
+	&:hover{
+		background: url(../img/az-basket-hover.png) no-repeat center;
+	}
+	@include mobile(768){
+		font-size: 14px;
+		background-position: left center;
+		padding-left: 30px;
+		height: 56px;
+		width: auto;
+		&:active, &:focus{
+			color: #fff;
+			text-decoration: none;
+		}
+		&:hover{
+			text-decoration: none;
+			color: #f37a1f;
+			background-position: left center;
+		}
+	}
+}
+.az-control__exit{
+	&:active, &:focus{
+		color: #fff;
+		text-decoration: none;
+	}
+	&:hover{
+		text-decoration: none;
+		color: #f37a1f;
+		background-position: left center;
+	}
+}
+

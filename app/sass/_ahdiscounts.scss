@@ -25,10 +25,15 @@
 	span{
 		color: #182229;
 		font-size: 12px;
+		margin-left: 8px;
 	}
 }
 .ah-discounts{
 	background: #fff;
+	box-shadow: 0 8px 16px rgba(24, 34, 41, 0.28);
+}
+.ah-topbox{
+	padding: 15px 30px;
 }
 .ah-topbox__spanleft{
 	display: inline-block;
@@ -71,6 +76,7 @@
 }
 .ah-accord-list{
 	padding: 0;
+	margin: 0;
 }
 .ah-accord__content{
 	position: relative;

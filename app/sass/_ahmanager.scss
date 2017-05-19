@@ -3,11 +3,32 @@
 
 
 .ah-managergray__box{
+	position: relative;
 	display: inline-block;
 	width: 100%;
-	max-width: 359px;
+	max-width: 270px;
 	background: #f5f3f2;
 	padding: 20px 25px 25px 25px;
+	&::before{
+		position: absolute;
+		content: "";
+		left: -13px;
+		top: 0px;
+		border-top: 8px solid #f5f3f2;
+		border-right: 8px solid #f5f3f2;
+		border-bottom: 8px solid transparent;
+		border-left: 8px solid transparent;
+	}
+	@include mobile(1600){
+		max-width: 359px;
+	}
+}
+.ah-managerentry{
+	background: #fff;
+	padding-left: 20px;
+	@include mobile(1600){
+		padding-left: 30px;
+	}
 }
 .ah-managerentry-span{
 	display: block;
@@ -15,7 +36,35 @@
 	color: #182229;
 	font-size: 14px;
 }
-
+.ah-managergray__box1{
+	display: inline-block;
+	text-align: right;
+}
+.ah-managergray__span{
+	float: right;
+	margin-top: 5%;
+	margin-right: 3%;
+	display: inline-block;
+}
+.ah-managerwhite__span{
+	@extend .ah-managergray__span;
+}
+.ah-managerwhite__box1{
+	display: inline-block;
+	width: 100%;
+	max-width: 270px;
+	border: 1px solid #d1d0cf;
+	padding: 15px 20px;
+	@include mobile(1600){
+		max-width: 359px;
+	}
+}
+.ah-managerwhite__span1{
+	display: block;
+	font-family: "RobotoRegular";
+	color: #182229;
+	font-size: 14px;
+}
 
 
 
