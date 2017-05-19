@@ -1,7 +1,9 @@
 @import "vars";
 
 
-
+.ah-managerentry__graybox{
+	margin: 16px 0px;
+}
 .ah-managergray__box{
 	position: relative;
 	display: inline-block;
@@ -25,9 +27,11 @@
 }
 .ah-managerentry{
 	background: #fff;
-	padding-left: 20px;
+}
+.ah-manager__bottombox{
+	padding: 20px 0px 35px 20px;
 	@include mobile(1600){
-		padding-left: 30px;
+		padding: 20px 0px 35px 30px;
 	}
 }
 .ah-managerentry-span{
@@ -46,15 +50,29 @@
 	margin-right: 3%;
 	display: inline-block;
 }
+.ah-managerentry__whitebox{
+	margin: 7px 0px;
+}
 .ah-managerwhite__span{
 	@extend .ah-managergray__span;
 }
 .ah-managerwhite__box1{
+	position: relative;
 	display: inline-block;
 	width: 100%;
 	max-width: 270px;
 	border: 1px solid #d1d0cf;
 	padding: 15px 20px;
+	&::before{
+		position: absolute;
+		content: "";
+		right: -12px;
+		top: -1px;
+		border-top: 6px solid #d1d0cf;
+		border-left: 6px solid #d1d0cf;
+		border-bottom: 6px solid transparent;
+		border-right: 6px solid transparent;
+	}
 	@include mobile(1600){
 		max-width: 359px;
 	}
