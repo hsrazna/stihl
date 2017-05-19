@@ -1,0 +1,123 @@
+@import "vars";
+
+
+
+
+.ah-accord__title{
+	display: block;
+	font-family: "RobotoBold";
+	color: #182229;
+	font-size: 14px;
+	margin-bottom: 17px;
+}
+.ah-box1, .ah-box2{
+	display: inline-block;
+}
+.ah-box2{
+	margin-left: 125px;
+}
+.ah-box1__span, .ah-box1__span1, .ah-box2__span, .ah-box2__span1{
+	display: block;
+	font-family: "RobotoRegular";
+	color: #565f66;
+	font-size: 12px;
+	margin: 3px 0px;
+	span{
+		color: #182229;
+		font-size: 12px;
+	}
+}
+.ah-discounts{
+	background: #fff;
+}
+.ah-topbox__spanleft{
+	display: inline-block;
+	font-family: "RobotoBold";
+	color: #182229;
+	font-size: 16px;
+	letter-spacing: 0.008em;
+}
+.ah-topbox__spanright{
+	float: right;
+	display: inline-block;
+	font-family: "RobotoBold";
+	color: #f37a1f;
+	font-size: 14px;
+	background: url(../img/ah-discounts-icon.png) left center no-repeat;
+	padding-left: 15px;
+	&:hover, &:active, &:focus{
+		text-decoration: none;
+		color: #f37a1f;
+	}
+}
+.ah-accord{
+	display: block;
+	background: #f5f3f2;
+	border-top: 1px solid #d1d0cf;
+}
+.ah-accord__link{
+	display: block;
+	background: #f5f3f2;
+	padding: 10px 30px;
+	font-family: "RobotoBold";
+	color: #565f66;
+	font-size: 14px;
+	letter-spacing: 0.016em;
+	background: url(../img/ah-discounts-icon1.png) calc(100% - 5%) center no-repeat;
+	&:hover, &:active, &:focus{
+		text-decoration: none;
+		color: #565f66;
+	}
+}
+.ah-accord-list{
+	padding: 0;
+}
+.ah-accord__content{
+	position: relative;
+	display: none;
+	background: #fff;
+	border-top: 1px solid #d1d0cf;
+	padding: 20px 30px;
+}
+.ah-accord__close{
+	display: block;
+	position: absolute;
+	top: 15px;
+	right: 5.1%;
+	height: 12px;
+	width: 12px;
+	background: url(../img/ah-discounts-icon2.png) center center no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

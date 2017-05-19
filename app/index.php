@@ -47,12 +47,11 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-				Мои скидки<br>
-				Мои документы
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+				<?php require_once "include/discounts.php"; ?>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-				Чат с менеджером
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+				<?php require_once "include/manager.php"; ?>
 			</div>
 		</div>
 	</div>
