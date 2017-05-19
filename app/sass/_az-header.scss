@@ -3,7 +3,10 @@
 .az-header-background{
 	background: #2f373d;
 	min-height: 56px;
-	
+	margin-bottom: 32px;
+	@include mobile(1600){
+		margin-bottom: 40px;
+	}
 }
 
 
@@ -304,4 +307,3 @@
 		background-position: left center;
 	}
 }
-
