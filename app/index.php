@@ -36,10 +36,27 @@
 <body>
 
 	<?php require_once "include/header.php"; ?>
-	<?php require_once "include/slider.php"; ?>
-	<?php require_once "include/main-catalog.php"; ?>
-	<?php require_once "include/news.php"; ?>
-	<?php require_once "include/testimonials.php"; ?>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+				Мои заказы
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+				Мои реквизиты
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+				Мои скидки<br>
+				Мои документы
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+				Чат с менеджером
+			</div>
+		</div>
+	</div>
+	
 	<?php require_once "include/footer.php"; ?>
 
 	<div class="hidden">

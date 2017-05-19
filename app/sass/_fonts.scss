@@ -1,8 +1,11 @@
 // @import "bourbon";
 
-@include font-face(SourceSansPro, '/fonts/Source_Sans_Pro/SourceSansPro-Regular');
-// +font-face("ArimoBold", "../fonts/Lato-Black/Lato-Black", $file-formats: eot woff ttf);
-// +font-face("ArimoBold", "../fonts/Lato-Bold/Lato-Bold", $file-formats: eot woff ttf);
-// +font-face("ArimoBold", "../fonts/Lato-Light/Lato-Light", $file-formats: eot woff ttf);
-// +font-face("ArimoBold", "../fonts/Lato-Medium/Lato-Medium", $file-formats: eot woff ttf);
-// +font-face("ArimoBold", "../fonts/Lato-Regular/Lato-Regular", $file-formats: eot woff ttf);
+@include font-face(RobotoBlack, '/fonts/RobotoBlack/RobotoBlack');
+@include font-face(RobotoBold, '/fonts/RobotoBold/RobotoBold');
+@include font-face(RobotoCondensed, '/fonts/RobotoCondensed/RobotoCondensed');
+@include font-face(RobotoCondensedLight, '/fonts/RobotoCondensedLight/RobotoCondensedLight');
+@include font-face(RobotoCondensedRegular, '/fonts/RobotoCondensedRegular/RobotoCondensedRegular');
+@include font-face(RobotoLight, '/fonts/RobotoLight/RobotoLight');
+@include font-face(RobotoMedium, '/fonts/RobotoMedium/RobotoMedium');
+@include font-face(RobotoRegular, '/fonts/RobotoRegular/RobotoRegular');
+@include font-face(RobotoThin, '/fonts/RobotoThin/RobotoThin');

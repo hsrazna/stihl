@@ -1,2 +1,3 @@
 $(function() {
+	// alert(1);
 });
