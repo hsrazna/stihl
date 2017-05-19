@@ -1,7 +1,7 @@
 
 <div class="ah-manager">
-	<div class="ah-manager__topbox">
-		<span>Чат с менеджером</span>
+	<div class="ah-manager__topbox ah-managertop">
+		<span class="ah-managertop-span">Чат с менеджером</span>
 	</div>
 	<div class="ah-manager__middlebox ah-managerinfo">
 		<div class="ah-managerinfo__imgbox">
@@ -14,6 +14,9 @@
 		</div>
 	</div>
 	<div class="ah-manager__bottombox ah-managerentry">
+		<div class="ah-managerentry__titlebox">
+			<span class="ah-managerentry-title">Сегодня</span>
+		</div>
 		<div class="ah-managerentry__graybox ah-managergray">
 			<div class="ah-managergray__box">
 				<span class="ah-managerentry-span">Здравствуйте!</span>
@@ -40,5 +43,11 @@
 			</div>
 			<span class="ah-managergray__span">20:21</span>
 		</div>
+	</div>
+	<div class="ah-manager__textbox ah-managertext">
+		<form class="ah-managertext-form">
+			<input type="text" placeholder="Напиcать сообщение">
+			<input type="submit" value="">
+		</form>
 	</div>
 </div>

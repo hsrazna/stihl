@@ -1,6 +1,72 @@
 @import "vars";
 
 
+
+
+.ah-manager{
+	background: #fff;
+}
+.ah-managertop{
+	padding: 20px 30px;
+}
+.ah-managertop-span{
+	display: block;
+	font-family: "RobotoBold";
+	color: #182229;
+	font-size: 16px;
+}
+.ah-managertext-form{
+	input[type="text"]{
+		width: 100%;
+		max-width: 260px;
+		box-sizing: border-box;
+		border: none;
+		background: #fff;
+		color: #565f66;
+		font-size: 14px;
+		font-family: "RobotoRegular";
+		height: 40px;
+		line-height: 40px;
+		padding-left: 15px;
+		outline: none;
+		&::-webkit-input-placeholder{
+			color: #565f66;
+		}
+		&::-moz-placeholder{
+			color: #565f66;
+		}
+		&:-moz-placeholder{
+			color: #565f66;
+		}
+		&:-ms-input-placeholder{
+			color: #565f66;
+		}
+	}
+	input[type="submit"]{
+		width: 18px;
+		height: 18px;
+		border: none;
+		background: url(../img/ah-text-button.png) center center no-repeat;
+		cursor: pointer;
+		outline: none;
+	}
+}
+.ah-managertext{
+	background: #fff;
+	padding-top: 20px;
+	padding-bottom: 65px;
+	padding-left: 30px;
+}
+.ah-manager__textbox{
+	border-top: 1px solid #d1d0cf;
+}
+.ah-managerentry-title{
+	display: block;
+	font-family: "RobotoRegular";
+	color: #565f66;
+	font-size: 14px;
+	text-align: center;
+}
 .ah-managerentry__graybox{
 	margin: 16px 0px;
 }
@@ -29,9 +95,9 @@
 	background: #fff;
 }
 .ah-manager__bottombox{
-	padding: 20px 0px 35px 20px;
+	padding: 20px 15px 35px 20px;
 	@include mobile(1600){
-		padding: 20px 0px 35px 30px;
+		padding: 20px 15px 35px 30px;
 	}
 }
 .ah-managerentry-span{
@@ -47,7 +113,7 @@
 .ah-managergray__span{
 	float: right;
 	margin-top: 5%;
-	margin-right: 3%;
+	// margin-right: 3%;
 	display: inline-block;
 }
 .ah-managerentry__whitebox{
