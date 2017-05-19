@@ -8,7 +8,7 @@
 		<ul class="ah-accord-list">
 			<li class="ah-accord-list__item ah-accord">
 				<a href="#" class="ah-accord__link">STIHL Machine Accesoires</a>
-				<div class="ah-accord__content">
+				<div class="ah-accord__content" style="display: block;">
 					<a href="#" class="ah-accord__close"></a>
 					<span class="ah-accord__title">STIHL Machine Accesoires</span>
 					<div class="ah-accord__box1 ah-box1">

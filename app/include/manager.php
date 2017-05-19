@@ -33,5 +33,12 @@
 			</div>
 			<span class="ah-managerwhite__span">10:16</span>
 		</div>
+		<div class="ah-managerentry__graybox ah-managergray">
+			<div class="ah-managergray__box">
+				<span class="ah-managerentry-span">Всегда рада помочь :)</span>
+				<span class="ah-managerentry-span">Обращайтесь!</span>
+			</div>
+			<span class="ah-managergray__span">20:21</span>
+		</div>
 	</div>
 </div>
