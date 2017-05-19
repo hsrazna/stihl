@@ -3,17 +3,23 @@
 .az-header-background{
 	background: #2f373d;
 	min-height: 56px;
+	
 }
 
 
 
-.az-header{}
+.az-header{
+	@include mobile(992){
+		position: relative;
+	}
+}
 .az-header__logo{
 	width: 110px;
 	float: left;
 	padding-top: 8px;
 	@include mobile(992){
 		width: 245px;
+		padding-top: 13px;
 	}
 }
 .az-header__menu{
@@ -24,6 +30,10 @@
 	margin-right: -15px;
 	@include mobile(768){
 		width: 8.33%;
+	}
+	@include mobile(1600){
+		float: left;
+		width: 910px;
 	}
 }
 .az-header__control{
@@ -36,6 +46,9 @@
 	@include mobile(992){
 		padding-right: 0;
 	}
+	@include mobile(1600){
+		width: 380px;
+	}
 }
 
 
@@ -47,6 +60,8 @@
 .az-logo__img{
 	width: 100%;
 	height: auto;
+	display: inline-block;
+	vertical-align: middle;
 	@include mobile(992){
 		max-width: 120px;
 	}
@@ -56,6 +71,11 @@
 	font-family: "RobotoMedium";
 	color: #fff;
 	font-weight: normal;
+	display: inline-block;
+	vertical-align: middle;
+	@include mobile(992){
+		padding-left: 10px;
+	}
 }
 
 
@@ -64,7 +84,9 @@
 	line-height: 56px;
 	font-size: 0;
 	text-align: right;
-	
+	@include mobile(1600){
+		text-align: center;
+	}
 }
 .az-menu__icon{
 	display: inline-block;
@@ -76,9 +98,18 @@
 	&:hover{
 		background: url(../img/az-menu-icon-hover.png) no-repeat center;
 	}
+	@include mobile(1600){
+		display: none;
+	}
 }
 .az-menu__list{
 	display: none;
+	padding: 0;
+	margin: 0;
+	@include mobile(1600){
+		display: block;
+		position: static;
+	}
 }
 .az-menu__list_on{
 	display: block;
@@ -93,11 +124,26 @@
 	background: rgba(47, 55, 61, 0.96);
 	animation: show-from-bottom .6s ease;
 	padding: 10px 0 95px;
+	@include mobile(992){
+		left: calc(66.66% + 15px);
+		width: 100%;
+		padding-top: 0;
+		min-height: 768px;
+	}
 }
 .az-menu__item{
 	display: block;
 	line-height: 42px;
 	font-size: 0;
+	@include mobile(992){
+		width: calc(33.33% - 15px);
+		text-align: right;
+	}
+	@include mobile(1600){
+		width: auto;
+		padding: 0 22px;
+		display: inline-block;
+	}
 }
 .az-menu__link{
 	font-size: 14px;
@@ -126,6 +172,12 @@
 	margin: 25px 0;
 	&:hover{
 		background: url(../img/az-close-hover.png) no-repeat center;
+	}
+	@include mobile(992){
+		margin: 20px 0 25px;
+	}
+	@include mobile(1600){
+		display: none;
 	}
 }
 
@@ -176,6 +228,9 @@
 		width: auto;
 		margin-left: 45px;
 		padding: 0;
+		&:first-child{
+			margin-left: 0;
+		}
 	}
 }
 .az-control__manager{

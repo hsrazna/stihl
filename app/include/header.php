@@ -11,7 +11,7 @@
 				<nav class="az-menu">
 					<a href="#" class="az-menu__icon">Меню</a>
 					<ul class="az-menu__list">
-						<li class="az-menu__item">
+						<li class="az-menu__item hidden-xlg">
 							<a href="#" class="az-menu__link az-menu__link_close">Закрыть</a>
 						</li>
 						<li class="az-menu__item">
