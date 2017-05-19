@@ -4,6 +4,10 @@
 	box-shadow: 0 8px 16px rgba(24, 34, 41, 0.28);
 }
 
+.az-orders__content{
+	height: 325px;
+}
+
 .az-topbox__p{
 	color: #565f66;
 	font-family: "RobotoRegular";
@@ -12,3 +16,59 @@
 	margin: 0;
 }
 
+.az-table{
+	position: relative;
+	padding-top: 40px;
+	height: 100%;
+	min-height: 300px;
+	overflow: hidden;
+}
+
+.az-table__top{
+	position: absolute;
+	height: 40px;
+	top: 0;
+}
+
+.az-table__bottom{
+	overflow: auto;
+}
+
+.az-table__col1{
+	width: 125px;
+	min-width: 125px;
+}
+
+.az-table__col2{
+	width: 208px;
+	min-width: 208px;
+}
+
+.az-table__col3{
+	width: 120px;
+	min-width: 120px;
+}
+
+.az-table__col4{
+	width: 116px;
+	min-width: 116px;
+}
+
+.az-table__col5{
+	width: 132px;
+	min-width: 132px;
+}
+
+.az-table__col6{
+	width: 128px;
+	min-width: 128px;
+}
+
+.az-table__col7{
+	width: 177px;
+	min-width: 177px;
+}
+
+.az-table__input{
+	width: 100%;
+}
