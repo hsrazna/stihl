@@ -12,12 +12,12 @@
 				</div>
 				<div class="ah-footer__box2 ahfooter2">
 					<div class="ahfooter2-left">
-						<span class="ahfooter2-span">ANDREAS STIHL LTD</span>
-						<span class="ahfooter2-span">STIHL House</span>
+						<a href="#" class="ahfooter2-span">ANDREAS STIHL LTD</a>
+						<a href="#" class="ahfooter2-span">STIHL House</a>
 					</div>
 					<div class="ahfooter2-right">
-						<span class="ahfooter2-span">Stanhope Road</span>
-						<span class="ahfooter2-span">Camberley Surrey GU15 3YT</span>
+						<a href="#" class="ahfooter2-span">Stanhope Road</a>
+						<a href="#" class="ahfooter2-span">Camberley Surrey GU15 3YT</a>
 					</div>
 				</div>
 			</div>
