@@ -200,9 +200,6 @@
 }
 .az-scroll.jspScrollable{
 	@extend .az-scroll-temp;
-	.jspPane{
-		width: calc(100% - 18px) !important;
-	}
 }
 .az-table__bottom{
 	@extend .az-scroll-temp;

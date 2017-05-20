@@ -1,5 +1,9 @@
 @import "vars";
 
+.az-start-header{
+	min-height: 60px;
+	background: #fff;
+}
 
 .az-start-header__logo{
 	width: 110px;
@@ -7,6 +11,22 @@
 	padding-top: 8px;
 	@include mobile(992){
 		width: 245px;
-		padding-top: 13px;
+		padding-top: 15px;
 	}
+}
+
+.az-start-header__version{
+	float: right;
+	line-height: 60px;
+}
+
+.az-logo__text_black{
+	color: #565f66;
+}
+
+.az-version{
+	font-size: 14px;
+	color: #3c4347;
+	font-family: "RobotoRegular";
+	font-weight: normal;
 }

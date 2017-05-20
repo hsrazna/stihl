@@ -4,6 +4,12 @@ $(function() {
 		return false;
 	});
 
+	$(".az-scroll").jScrollPane({
+		autoReinitialise: true,
+		showArrows: true,
+		verticalGutter: 0
+	});
+
 	setTableBody();
     $(window).resize(setTableBody);
 
@@ -21,10 +27,7 @@ $(function() {
 	// 	$(".az-table__top2").css({ left: $(".az-table__bottom2 .jspPane").css("left")});
 	// });
 
-	$(".az-scroll").jScrollPane({
-		autoReinitialise: true,
-		showArrows: true,
-	});
+	
 
 });
 
