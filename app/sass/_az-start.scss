@@ -1,0 +1,151 @@
+@import "vars";
+
+.az-start{
+	height: calc(100vh - 240px);
+	min-height: 418px;
+	margin-bottom: -40px;
+	background: transparent url('../img/az-start.jpg') center no-repeat;
+	background-size: cover;
+	@include mobile(768){
+		height: calc(100vh - 170px);
+	}
+	@include mobile(1200){
+		height: calc(100vh - 108px);
+	}
+}
+
+.az-start__inner{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	@include mobile(1200){
+		height: calc(100% - 40px);
+	}
+}
+
+.az-popup{
+	width: 100%;
+	max-width: 490px;
+	margin: 25px auto;
+	background: #f5f3f2;
+	padding: 25px 20px 45px;
+	text-align: center;
+	position: relative;
+}
+
+
+.az-popup__inner{
+	max-width: 290px;
+	margin: 0 auto;
+}
+
+.az-popup_forgot-pass{
+	background: #fff;
+	display: none;
+	padding: 50px 5px 40px;
+	@include mobile(480){
+		padding: 50px 5px 50px;
+	}
+	.az-popup__subtitle{
+		white-space: normal;
+	}
+	.az-popup__inner{
+		max-width: 350px;
+	}
+}
+
+.az-popup__title{
+	font-size: 18px;
+	color: #182229;
+	line-height: 18px;
+	text-align: center;
+	font-weight: normal;
+	font-family: "RobotoBold";
+	margin-bottom: 10px;
+}
+
+.az-popup__subtitle{
+	font-size: 14px;
+	color: #565f66;
+	line-height: 18px;
+	text-align: center;
+	font-weight: normal;
+	font-family: "RobotoRegular";
+	margin: 10px 0;
+	white-space: nowrap;
+}
+
+.az-popup__login{
+	margin: 30px 0 16px;
+}
+
+.az-popup__password{
+	margin: 16px 0 14px;
+}
+
+.az-popup__link{
+	font-size: 14px;
+	color: #565f66;
+	line-height: 18px;
+	font-weight: normal;
+	font-family: "RobotoRegular";
+	margin: 10px 0 30px;
+	text-decoration: underline;
+	display: inline-block;
+	vertical-align: top;
+	&:active, &:focus{
+		color: #565f66;
+		text-decoration: underline;
+	}
+	&:hover{
+		color: #565f66;
+		text-decoration: none;
+	}
+}
+
+.az-popup__submit{
+	max-width: 180px;
+	margin: 0 auto;
+}
+
+.az-popup__close{
+	font-size: 0;
+	width: 16px;
+	height: 16px;
+	background: transparent url('../img/az-close-black.png') center no-repeat;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+.az-popup__email{
+	margin: 27px auto 24px;
+	max-width: 242px;
+	@include mobile(480){
+		max-width: 290px;
+	}
+}
+
+.az-input{
+	height: 36px;
+	width: 100%;
+	border: 1px solid #d1d0cf;
+	color: #565f66;
+	padding: 0 15px;
+}
+
+.az-submit{
+	height: 36px;
+	width: 100%;
+	color: #fff;
+	border: 1px solid #f37a1f;
+	background: #f37a1f;
+	font-family: "RobotoBold";
+	font-size: 12px;
+	font-weight: normal;
+	&:hover{
+		background: #fff;
+		color: #f37a1f;
+	}
+}

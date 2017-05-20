@@ -20,6 +20,16 @@ $(function() {
 		$(this).siblings(".az-table__top").css({ left: $(this).find(".jspPane").css("left")});
 	});
 
+	$(".js-forgot-pass").click(function(){
+		$(this).parents(".az-popup").slideUp(0);
+		$(".js-forgot-pass-popup").slideDown(0);
+	});
+
+	$(".js-close-popup").click(function(){
+		$(this).parents(".az-popup").slideUp(0);
+		$(".js-enter-popup").slideDown(0);
+	});
+
 	// $(".az-table__bottom2").jScrollPane({
 	// 	autoReinitialise: true,
 	// 	showArrows: true,
