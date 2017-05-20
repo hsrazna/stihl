@@ -6,21 +6,19 @@ $(function() {
 
 	setTableBody();
     $(window).resize(setTableBody);
-    $(".az-table__bottom").scroll(function ()
-    {
-        // $(".az-table__top").css({ left: ((-1*parseInt(this.scrollLeft)))+"px" });
-    });
 
     $(".az-table__bottom").jScrollPane({
 		autoReinitialise: true,
-		// animateScroll: true
-	}).bind(
-		'jsp-will-scroll-x',
-		function(event, destX)
-		{
-			$(".az-table__top").css({ left: $(".az-table__bottom .jspPane").css("left")});
-		}
-	);
+		showArrows: true,
+	}).bind('jsp-scroll-x', function(event, destX){
+		$(".az-table__top").css({ left: $(".az-table__bottom .jspPane").css("left")});
+	});
+
+	$(".az-scroll").jScrollPane({
+		autoReinitialise: true,
+		showArrows: true,
+	});
+	
 });
 
 function setTableBody()
