@@ -4,7 +4,7 @@
 		<span class="ah-topbox__spanleft">Мои скидки</span>
 		<a href="#" class="ah-topbox__spanright">Все скидки</a>
 	</div>
-	<div class="ah-discounts__content">
+	<div class="ah-discounts__content az-scroll">
 		<ul class="ah-accord-list">
 			<li class="ah-accord-list__item ah-accord">
 				<a href="#" class="ah-accord__link">STIHL Machine Accesoires</a>
