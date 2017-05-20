@@ -140,10 +140,13 @@
 }
 .ah-managerentry{
 	background: #fff;
+	// height: 398px;
+}
+.ah-scrollheight{
 	height: 398px;
 }
 .ah-manager__bottombox{
-	padding: 20px 15px 35px 20px;
+	padding: 20px 5px 35px 20px;
 	@include mobile(1600){
 		padding: 20px 15px 35px 30px;
 	}
