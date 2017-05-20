@@ -36,27 +36,10 @@
 
 <body>
 
-	<?php require_once "include/header.php"; ?>
+	<?php require_once "include/start-header.php"; ?>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-				<?php require_once "include/orders.php"; ?>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-				Мои реквизиты
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
-				<?php require_once "include/discounts.php"; ?>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-				<?php require_once "include/manager.php"; ?>
-			</div>
-		</div>
-	</div>
-	
+	<?php require_once "include/start.php"; ?>
+
 	<?php require_once "include/footer.php"; ?>
 
 	<div class="hidden">

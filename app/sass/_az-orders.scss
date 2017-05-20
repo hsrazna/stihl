@@ -27,7 +27,7 @@
 	position: relative;
 	padding-top: 40px;
 	height: 100%;
-	min-height: 300px;
+	min-height: 200px;
 	overflow: hidden;
 }
 
@@ -130,6 +130,22 @@
 	}
 }
 
+.az-table_full-width{
+	.az-table__top, .az-table__head, .az-table__body{
+		width: 100%;
+	}
+	.az-table__bottom .jspPane{
+		width: 100% !important;
+	}
+	.az-table__row{
+		display: flex;
+		width: 100%;
+		.az-table__head-td, .az-table__td{
+			flex: 1 1 100px;
+		}
+	}
+}
+
 .az-table__td_center{
 	padding-left: 30px;
 }
@@ -203,4 +219,12 @@
 	height: 7px;
 	background: transparent url('../img/az-sort.png') center no-repeat;
 	font-size: 0;
+}
+
+// *******************************
+
+.ah-tabsbox{
+	&>div{
+		height: 100%;
+	}
 }

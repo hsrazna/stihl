@@ -1,0 +1,12 @@
+@import "vars";
+
+
+.az-start-header__logo{
+	width: 110px;
+	float: left;
+	padding-top: 8px;
+	@include mobile(992){
+		width: 245px;
+		padding-top: 13px;
+	}
+}
