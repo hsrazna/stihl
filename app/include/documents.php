@@ -16,16 +16,16 @@
 						<div class="az-table__top">
 							<div class="az-table__head">
 								<div class="az-table__row">
-									<div class="az-table__head-td az-table__td_center az-table__col1">Дата <a href="#" class="az-sort">сортировать</a></div>
-									<div class="az-table__head-td az-table__col2">Название</div>
+									<div class="az-table__head-td az-table__td_center">Дата <a href="#" class="az-sort">сортировать</a></div>
+									<div class="az-table__head-td">Название</div>
 								</div>
 							</div>
 						</div>
 						<div class="az-table__bottom">
 							<div class="az-table__body">
 								<div class="az-table__row">
-									<div class="az-table__td az-table__td_center az-table__col1">19.03.17</div>
-									<div class="az-table__td az-table__col2"><a href="#" class="ah-tablink">Договор</a></div>
+									<div class="az-table__td az-table__td_center">19.03.17</div>
+									<div class="az-table__td"><a href="#" class="ah-tablink">Договор</a></div>
 								</div>
 							</div>
 						</div>
