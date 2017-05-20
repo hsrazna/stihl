@@ -10,10 +10,16 @@
 	margin-bottom: 17px;
 }
 .ah-box1, .ah-box2{
-	display: inline-block;
+	display: block;
+	@include mobile(768){
+		display: inline-block;
+	}
 }
 .ah-box2{
-	margin-left: 125px;
+	margin-left: 0px;
+	@include mobile(768){
+		margin-left: 125px;
+	}
 }
 .ah-box1__span, .ah-box1__span1, .ah-box2__span, .ah-box2__span1{
 	display: block;
@@ -30,6 +36,7 @@
 .ah-discounts{
 	background: #fff;
 	box-shadow: 0 8px 16px rgba(24, 34, 41, 0.28);
+	margin: 0px 0px 30px;
 }
 .ah-topbox{
 	padding: 15px 30px;

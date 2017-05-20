@@ -13,7 +13,7 @@
 			<span class="ah-managerinfo-span1">Email:<span>irinam@stihl.com</span></span>
 		</div>
 	</div>
-	<div class="ah-manager__bottombox ah-managerentry">
+	<div class="ah-manager__bottombox ah-managerentry az-scroll">
 		<div class="ah-managerentry__titlebox">
 			<span class="ah-managerentry-title">Сегодня</span>
 		</div>

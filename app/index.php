@@ -50,6 +50,7 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
 				<?php require_once "include/discounts.php"; ?>
+				<?php require_once "include/documents.php"; ?>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
 				<?php require_once "include/manager.php"; ?>
