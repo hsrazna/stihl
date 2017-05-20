@@ -44,7 +44,7 @@
 				<?php require_once "include/orders.php"; ?>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-				Мои реквизиты
+				<?php require_once "include/requisites.php"; ?>
 			</div>
 		</div>
 		<div class="row">

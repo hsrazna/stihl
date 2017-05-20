@@ -1,0 +1,105 @@
+@import "vars";
+
+
+
+.ah-requisites{
+	background: #fff;
+	box-shadow: 0 8px 16px rgba(24, 34, 41, 0.28);
+	margin-bottom: 30px;
+	@include mobile(1200){
+		margin-bottom: 0px;
+	}
+}
+.ah-requisites-topbox{
+	border-bottom: 1px solid #d1d0cf;
+	padding: 15px 20px !important;
+}
+.ah-reqcontent-span{
+	display: block;
+	font-family: "RobotoRegular";
+	color: #565f66;
+	font-size: 12px;
+	margin-bottom: 6px;
+	@include mobile(992){
+		margin-bottom: 4px;
+		font-size: 12px;
+	}
+	@include mobile(1200){
+		margin-bottom: 4px;
+		font-size: 14px;
+	}
+	span{
+		color: #182229;
+		padding-left: 10px;
+	}
+}
+.ah-reqspan{
+	color: #182229;
+}
+.ah-reqcontent{
+	padding: 30px 30px 30px 30px;
+	height: unset;
+	@include mobile(992){
+		height: 344px;
+		padding: 30px 30px 10px 30px;
+	}
+	@include mobile(1200){
+		padding: 30px 30px 10px 30px;
+		height: 349px;
+	}
+}
+.ah-reqcontent-wrapp{
+	width: 100%;
+	display: block;
+	vertical-align: top;
+	@include mobile(480){
+		display: inline-block;
+		width: 50%;
+	}
+	@include mobile(992){
+		display: block;
+		width: 100%;
+	}
+}
+.ah-reqcontent-wrapp1{
+	width: 100%;
+	font-size: 0;
+}
+.ah-reqwrapp1{
+	padding-left: 0px;
+	@include mobile(480){
+		padding-left: 10px;
+	}
+	@include mobile(768){
+		padding-left: 35px;
+	}
+	@include mobile(992){
+		padding-left: 0px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
