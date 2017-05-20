@@ -1,0 +1,104 @@
+@import "vars";
+
+
+.ah-footer{
+	border-top: 2px solid #f37a1f;
+	padding: 15px 0px 20px 0px;
+	background: #fff;
+	margin-top: 40px;
+	@include mobile(480){
+		padding: 15px 15px 20px 15px;
+	}
+	@include mobile(768){
+		padding: 15px 0px 50px 0px;
+	}
+	@include mobile(1200){
+		margin-top: 0px;
+	}
+}
+.ahfooter1, .ahfooter2{
+	display: block;
+	text-align: center;
+	padding: 15px 0px;
+	@include mobile(768){
+		display: inline-block;
+		text-align: left;
+		padding: 0px 0px;
+	}
+}
+.ahfooter2{
+	float: unset;
+	border-top: 1px solid #d1d0cf;
+	@include mobile(768){
+		float: right;
+		border-top: none;
+	}
+}
+.ahfooter1-left, .ahfooter1-right{
+	display: block;
+	@include mobile(1200){
+		display: inline-block;
+	}
+}
+.ahfooter2-left, .ahfooter2-right{
+	display: block;
+	@include mobile(1200){
+		display: inline-block;
+	}
+}
+.ahfooter1-span{
+	display: inline-block;
+	font-family: "RobotoRegular";
+	color: #565f66;
+	font-size: 14px;
+}
+.ahfooter1span1{
+	span{
+		color: #f37a1f;
+		padding-left: 10px;
+	}
+}
+.ahfooter1span2{
+	margin-left: 0px;
+	@include mobile(1200){
+		margin-left: 100px;
+	}
+	span{
+		color: #323232;
+		padding-left: 10px;
+	}
+}
+.ahfooter2-span{
+	display: inline-block;
+	font-family: "RobotoRegular";
+	color: #333;
+	font-size: 14px;
+	// margin: 0px 12px;
+	margin-left: 0px;
+	@include mobile(768){
+		margin-left: 25px;;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
