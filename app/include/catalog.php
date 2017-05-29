@@ -28,8 +28,8 @@
 			    </ul>
 			    <div class="ah-tabs__tabsbox ah-tabsbox">
 			        <div id="tab-1" class="ah-tabsbox__item">
-			        	<div class="az-cat-filter">
-				        	<form action="/">
+			        	<form action="/">
+				        	<div class="az-cat-filter">
 				        		<div class="az-cat-filter__search">
 					        		<div class="az-search">
 					        			<div class="az-search__cell">
@@ -40,8 +40,14 @@
 					        			</div>
 				        			</div>
 				        		</div>
-			        		</form>
-			        	</div>
+				        		<p class="az-cat-filter__text">Фильтровать:</p>
+				        		<div class="az-cat-filter__radio">
+				        			<label class="az-radio"><input type="radio" name="az-radio1" id="" checked><span>Все товары</span></label>
+				        			<label class="az-radio"><input type="radio" name="az-radio1" id=""><span>Текущий каталог</span></label>
+				        			<label class="az-radio"><input type="radio" name="az-radio1" id=""><span>Историю каталога</span></label>
+				        		</div>
+				        	</div>
+		        		</form>
 			        </div>
 			        <div id="tab-2" class="ah-tabsbox__item">
 			            

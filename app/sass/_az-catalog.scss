@@ -158,10 +158,73 @@
 	}
 }
 
+
+
+
 .az-cat-filter{
 	padding: 16px;
 	background: #f5f3f2;
+	font-size: 0;
+	@include mobile(992){
+		padding: 19px 30px;
+	}
 }
+
+.az-cat-filter__search{
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	@include mobile(992){
+		width: 360px;
+	}
+	@include mobile(1200){
+		width: 450px;
+	}
+}
+
+.az-cat-filter__text{
+	font-family: "RobotoRegular";
+	font-size: 12px;
+	color: #565f66;
+	margin: 15px 0 12px;
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	@include mobile(768){
+		width: 100px;
+		margin: 15px 0 0;
+	}
+	@include mobile(992){
+		width: calc(100% - 760px);
+		text-align: right;
+		margin: 0;
+		line-height: 32px;
+	}
+	@include mobile(1200){
+		width: calc(100% - 850px);
+	}
+}
+
+.az-cat-filter__radio{
+	font-size: 0;
+	margin: -6px -23px -6px 0;
+	display: inline-block;
+	vertical-align: top;
+	width: calc(100% + 23px);
+	@include mobile(768){
+		width: calc(100% - 100px);
+		text-align: right;
+		margin: 15px 0 0;
+	}
+	@include mobile(992){
+		width: 400px;
+		margin: 0;
+		line-height: 32px;
+	}
+}
+
+
+
 
 .az-search{
 	display: table;
@@ -203,4 +266,62 @@
 	height: 30px;
 	border: 0;
 	font-size: 0;
+}
+
+
+
+
+
+.az-radio{
+	display: inline-block;
+	vertical-align: top;
+	margin: 6px 36px 6px 0;
+	font-size: 0;
+	input[type="radio"]{
+		display: none;
+	}
+	input[type="radio"] + span{
+		display: inline-block;
+		vertical-align: top;
+		font-family: "RobotoRegular";
+		font-size: 12px;
+		color: #565f66;
+		position: relative;
+		padding-left: 22px;
+		height: 16px;
+		line-height: 16px;
+		@include mobile(992){
+			vertical-align: middle;
+		}
+		&::before{
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 16px;
+			height: 16px;
+			background: #fff;
+			border: 1px solid #d2d1d0;
+			border-radius: 50%;
+		}
+	}
+	input[type="radio"]:checked + span{
+		color: #182229;
+		&::after{
+			content: "";
+			position: absolute;
+			top: 6px;
+			left: 6px;
+			width: 4px;
+			height: 4px;
+			background: #182229;
+			border-radius: 50%;
+		}
+	}
+	@include mobile(768){
+		margin: 0 0 0 36px;
+	}
+	@include mobile(992){
+		margin: 0 0 0 17px;
+	}
 }
