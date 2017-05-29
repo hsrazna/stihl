@@ -28,7 +28,20 @@
 			    </ul>
 			    <div class="ah-tabs__tabsbox ah-tabsbox">
 			        <div id="tab-1" class="ah-tabsbox__item">
-			        	;sldkfjl
+			        	<div class="az-cat-filter">
+				        	<form action="/">
+				        		<div class="az-cat-filter__search">
+					        		<div class="az-search">
+					        			<div class="az-search__cell">
+						        			<input type="text" placeholder="Поиск по номеру" class="az-search__input">
+					        			</div>
+					        			<div class="az-search__cell2">
+						        			<input type="submit" value="Искать" class="az-search__submit">
+					        			</div>
+				        			</div>
+				        		</div>
+			        		</form>
+			        	</div>
 			        </div>
 			        <div id="tab-2" class="ah-tabsbox__item">
 			            
