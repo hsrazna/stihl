@@ -1,0 +1,91 @@
+.az-catalog{
+	margin-top: -32px;
+}
+
+.az-catalog__breadcrumbs{
+	margin: 12px 0 20px;
+	@include mobile(768){
+		float: left;
+		width: 50%;
+	}
+}
+
+.az-catalog__print{
+	text-align: center;
+	margin: 12px 0 20px;
+	@include mobile(768){
+		float: right;
+		width: 50%;
+		text-align: right;
+	}
+}
+
+.az-breadcrumbs{
+	display: block;
+	padding: 0;
+	margin: 0;
+	line-height: 18px;
+	font-size: 0;
+	font-family: "RobotoRegular";
+}
+
+.az-breadcrumbs__item{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 12px;
+	&::after{
+		content:"";
+		margin: 0 19px;
+		width: 6px;
+		height: 10px;
+		background: transparent url('../img/az-breadcrumbs-arrow.png') center no-repeat;
+		display: inline-block;
+	}
+	&:last-child{
+		&:after{
+			display: none;
+		}
+	}
+}
+
+.az-breadcrumbs__link{
+	font-size: 12px;
+	color: #565f66;
+	text-decoration: none;
+	@include mobile(992){
+		letter-spacing: 0.008em;
+	}
+	&:active, &:focus{
+		color: #565f66;
+		text-decoration: none;
+	}
+	&:hover{
+		color: #565f66;
+		text-decoration: none;
+	}
+	&:link{
+		&:hover{
+			color: #565f66;
+			text-decoration: underline;
+		}
+	}
+}
+
+.az-print{
+	font-size: 12px;
+	color: #565f66;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 20px;
+	padding-left: 30px;
+	background: transparent url('../img/az-print.png') left center no-repeat;
+	&:active, &:focus{
+		color: #565f66;
+		text-decoration: none;
+	}
+	&:hover{
+		color: #565f66;
+		text-decoration: underline;
+	}
+}
