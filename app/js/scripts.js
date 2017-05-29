@@ -49,6 +49,17 @@ $(function() {
 		verticalGutter: 0
 	});
 
+	$(".az-scroll2").jScrollPane({
+		autoReinitialise: true,
+		showArrows: true,
+		contentWidth: '0px',
+		verticalGutter: 0
+	}).bind('jsp-initialised', function(event, destX){
+		if($(this).height() == $(this).find(".jspPane").height()-1){
+			$(this).find(".jspVerticalBar").addClass("az-disabled");
+		}
+	});
+
 	setTableBody();
     $(window).resize(setTableBody);
 
