@@ -1,6 +1,23 @@
 <section class="ah-cardproduct">
     <div class="container">
     	<div class="row">
+	    	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		    	<div class="az-catalog__head clearfix">
+					<div class="az-catalog__breadcrumbs ah-breadcrumbs">
+						<ul class="az-breadcrumbs">
+							<li class="az-breadcrumbs__item"><a href="#" class="az-breadcrumbs__link">Главная</a></li>
+							<li class="az-breadcrumbs__item"><a class="az-breadcrumbs__link">Каталог</a></li>
+							<li class="az-breadcrumbs__item"><a class="az-breadcrumbs__link">STIHL Machines & Accessories</a></li>
+							<li class="az-breadcrumbs__item"><a class="az-breadcrumbs__link">Cordless Power System PRO</a></li>
+							<li class="az-breadcrumbs__item"><a class="az-breadcrumbs__link">Cordless Tools</a></li>
+							<li class="az-breadcrumbs__item"><a class="az-breadcrumbs__link">MSA 160 C-BQ Chainsaw</a></li>
+						</ul>
+					</div>
+					<div class="az-catalog__print ah-print">
+						<a href="#" class="az-print">Распечатать</a>
+					</div>
+				</div>
+			</div>
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="ah-cardproduct-wrapp">
 					<div class="ah-cardproduct__tabs ah-cardtabs">

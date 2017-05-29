@@ -3,7 +3,12 @@
 
 
 
-
+.ah-breadcrumbs{
+	width: 80% !important;
+}
+.ah-print{
+	width: 20% !important;
+}
 .ah-cardlink{
 	&:hover, &:active, &:focus{
 		border: 1px solid #fff !important;
