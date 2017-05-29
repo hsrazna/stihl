@@ -1,0 +1,281 @@
+@import "vars";
+
+
+
+
+
+.ah-cardlink{
+	&:hover, &:active, &:focus{
+		border: 1px solid #fff !important;
+		@include mobile(1200){
+			border-right: 1px solid #d1d0cf !important;
+		}
+	}
+}
+.ah-cardlink1{
+	&:hover, &:active, &:focus{
+		border: 1px solid #fff !important;
+		@include mobile(1200){
+			border-right: 1px solid #d1d0cf !important;
+			border-left: 1px solid #d1d0cf !important;
+		}
+	}
+}
+.ah-cardlink2{
+	&:hover, &:active, &:focus{
+		border: 1px solid #fff !important;
+		@include mobile(1200){
+			border-left: 1px solid #d1d0cf !important;
+		}
+	}
+}
+.ah-cardimgbox{
+	img{
+		margin: 0 auto;
+	}
+}
+.ah-cardtabs-link{
+	background: #f5f3f2;
+	border-top: 1px solid #d1d0cf !important;
+	border-bottom: 1px solid #d1d0cf !important;
+	&:hover, &:active, &:focus{
+		text-decoration: none;
+		color: #182229;
+		background: #fff;
+	}
+}
+.ah-card-item{
+	width: 100%;
+	font-size: 0;
+	margin: 15px 0px;
+	@include mobile(768){
+		margin: 25px 0px;
+	}
+}
+.ah-card-itemimg{
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+}
+.ah-card-itemcontent{
+	display: inline-block;
+	width: 80%;
+	vertical-align: top;
+	padding-left: 10px;
+	@include mobile(992){
+		padding-left: 30px;
+	}
+}
+.ah-card-itemcontent-span{
+	display: block;
+	font-family: "RobotoBold";
+	color: #182229;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.ah-card-itemcontent-text{
+	display: block;
+	font-family: "RobotoRegular";
+	color: #565f66;
+	font-size: 12px;
+	line-height: 20px;
+}
+.ah-cardtabsbox{
+	height: unset !important;
+}
+.ah-card-tablelist{
+	display: block;
+	border-top: 1px solid #d1d0cf;
+	padding-bottom: 5px;
+    border-bottom: 1px solid #d1d0cf;
+	li{
+		display: block;
+		&:nth-child(odd){
+			background: #f5f3f2;
+		}
+		span{
+			display: block;
+			padding: 10px 15px;
+			font-family: "RobotoRegular";
+			color: #565f66;
+			font-size: 12px;
+			@include mobile(768){
+				padding: 12px 40px;
+			}
+			span{
+				float: right;
+				display: inline-block;
+				color: #182229;
+				font-family: "RobotoRegular";
+				font-size: 12px;
+				padding: 0;
+			}
+		}
+	}
+}
+.ah-card-tablelist1{
+    border-bottom: none !important;
+    @include mobile(768){
+    	border-bottom: 1px solid #d1d0cf !important;
+    }
+}
+.ah-card-tablelist2{
+	border-top: none !important;
+	@include mobile(768){
+    	border-top: 1px solid #d1d0cf !important;
+    }
+}
+.ah-cardleftbox-span{
+	display: block;
+	color: #182229;
+	font-family: "RobotoBold";
+	font-size: 22px;
+	margin-bottom: 45px;
+}
+.ah-cardrightbox-span{
+	display: block;
+	color: #182229;
+	font-family: "RobotoBold";
+	font-size: 16px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	@include mobile(992){
+		margin-top: 0px;
+	}
+}
+.ah-cardrightbox-text{
+	display: block;
+	font-family: "RobotoRegular";
+	color: #565f66;
+	font-size: 14px;
+	line-height: 22px;
+}
+.ah-card-tablespan{
+	display: block;
+	font-family: "RobotoBold";
+	color: #182229;
+	font-size: 16px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.ah-card-tablespan1{
+	margin-bottom: 0;
+}
+.ah-cardproduct-wrapp{
+	background: #fff;
+
+	padding-bottom: 200px;
+}
+.ah-cardtab1-wrapp{
+	padding: 20px 15px;
+	@include mobile(768){
+		padding: 30px 35px;
+	}
+}
+
+.ah-cardtabs__item{
+	&:first-child{
+		display: inline-block;
+		width: 49.8%;
+	}
+	&:nth-child(2){
+		display: inline-block;
+		width: 50%;
+	}
+	&:nth-child(3){
+		display: inline-block;
+		border-right: 1px solid #d1d0cf !important;
+		width: 50%;
+	}
+	&:nth-child(4){
+		display: inline-block;
+		width: 50%;
+	}
+	&:nth-child(5){
+		display: inline-block;
+		width: 50%;
+	}
+	&:nth-child(6){
+		display: inline-block;
+		width: 50%;
+	}
+	@include mobile(768){
+		&:first-child{
+			display: inline-block;
+			width: 33.3%;
+		}
+		&:nth-child(2){
+			display: inline-block;
+			width: 33.3%;
+		}
+		&:nth-child(3){
+			display: inline-block;
+			width: 33.3%;
+		}
+		&:nth-child(4){
+			display: inline-block;
+			width: 33.3%;
+		}
+		&:nth-child(5){
+			display: inline-block;
+			width: 33.3%;
+		}
+		&:nth-child(6){
+			display: inline-block;
+			width: 33.3%;
+		}
+	}
+	@include mobile(1200){
+		&:first-child{
+			display: inline-block;
+			width: 16.6%;
+		}
+		&:nth-child(2){
+			display: inline-block;
+			width: 16.6%;
+		}
+		&:nth-child(3){
+			display: inline-block;
+			// border-right: 1px solid #d1d0cf !important;
+			width: 16.6%;
+		}
+		&:nth-child(4){
+			display: inline-block;
+			width: 16.6%;
+		}
+		&:nth-child(5){
+			display: inline-block;
+			width: 16.6%;
+		}
+		&:nth-child(6){
+			display: inline-block;
+			width: 17%;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
