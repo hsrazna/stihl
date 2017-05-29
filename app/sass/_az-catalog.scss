@@ -12,13 +12,23 @@
 
 .az-catalog__print{
 	text-align: center;
-	margin: 12px 0 20px;
+	margin: 12px 0 17px;
 	@include mobile(768){
 		float: right;
 		width: 50%;
 		text-align: right;
 	}
 }
+
+.az-catalog__title{
+	background: #fff;
+}
+
+.az-catalog__tabs{
+	background: #fff;
+}
+
+
 
 .az-breadcrumbs{
 	display: block;
@@ -87,5 +97,62 @@
 	&:hover{
 		color: #565f66;
 		text-decoration: underline;
+	}
+}
+
+.ah-tabsheader__item.az-tabsheader__item_catalog{
+	display: inline-block;
+	vertical-align: top;
+	&:nth-child(1){
+		width: 100%;
+		@include mobile(768){
+			width: 33.33%;
+		}
+		@include mobile(1200){
+			width: 20%;
+		}
+	}
+	&:nth-child(2){
+		width: 50%;
+		@include mobile(768){
+			width: 33.33%;
+		}
+		@include mobile(1200){
+			width: 20%;
+		}
+	}
+	&:nth-child(3){
+		width: 50%;
+		@include mobile(768){
+			width: 33.33%;
+		}
+		@include mobile(1200){
+			width: 20%;
+		}
+	}
+	&:nth-child(4){
+		width: 50%;
+		@include mobile(768){
+			width: 50%;
+		}
+		@include mobile(1200){
+			width: 20%;
+		}
+	}
+	&:nth-child(5){
+		width: 50%;
+		@include mobile(768){
+			width: 50%;
+		}
+		@include mobile(1200){
+			width: 20%;
+		}
+	}
+	.ah-tabsheader-link{
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		padding-left: 8px;
+		padding-right: 8px;
 	}
 }
