@@ -1,0 +1,61 @@
+.az-kit{
+	padding: 15px;
+}
+
+.az-kit__title{
+	margin: 0;
+	font-weight: normal;
+	font-family: "RobotoBold";
+	font-size: 22px;
+	line-height: 24px;
+	color: #182229;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.az-kit__subtitle{
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #565f66;
+	font-family: "RobotoRegular";
+	display: block;
+	width: 100%;
+	max-width: 345px;
+	margin: 10px 0 15px;
+}
+
+.az-kit__excel{
+	margin: 20px 0 16px;
+	text-align: center;
+	@include mobile(768){
+		float: right;
+		margin: 33px 0 16px;
+	}
+}
+
+.az-kit__head{
+	@include mobile(768){
+		float: left;
+	}
+}
+
+.az-excel{
+	font-size: 12px;
+	color: #565f66;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 20px;
+	font-family: "RobotoRegular";
+	padding-left: 30px;
+	background: transparent url('../img/az-excel.png') left center no-repeat;
+	&:active, &:focus{
+		color: #565f66;
+		text-decoration: none;
+	}
+	&:hover{
+		color: #565f66;
+		text-decoration: underline;
+	}
+}
