@@ -4,10 +4,16 @@
 
 
 .ah-breadcrumbs{
-	width: 80% !important;
+	width: 100% !important;
+	@include mobile(768){
+		width: 80% !important;
+	}
 }
 .ah-print{
-	width: 20% !important;
+	width: 100% !important;
+	@include mobile(768){
+		width: 20% !important;
+	}
 }
 .ah-cardlink{
 	&:hover, &:active, &:focus{
