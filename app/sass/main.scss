@@ -8,8 +8,7 @@
 @import "ahmanager";
 @import "ahdocuments";
 @import "ahrequisites";
-
-
+@import "ahcardproduct";
 
 @import "footer";
 
@@ -24,8 +23,11 @@ body{
 }
 ul{
 	padding: 0;
+	margin: 0;
 }
-
+p{
+	margin: 0;
+}
 
 
 
