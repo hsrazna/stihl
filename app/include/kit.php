@@ -46,80 +46,98 @@
 									            	<a href="#" class="az-excel">Скачать в Excel</a>
 									            </div>
 								            </div>
-								            <div class="az-kit__table az-table">
-												<div class="az-table__top">
-													<div class="az-table__head">
-														<div class="az-table__row">
-															<div class="az-table__head-td az-table__td_center az-kit__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-checkbox"><span></span></label></div>
-															<div class="az-table__head-td az-kit__col2">Номер товара <a href="#" class="az-sort">сортировать</a><a href="#" class="az-table-filter">фильтр</a></div>
-															<div class="az-table__head-td az-kit__col3">Название <a href="#" class="az-table-filter">фильтр</a></div>
-															<div class="az-table__head-td az-kit__col4">Кол-во <a href="#" class="az-table-filter">фильтр</a></div>
-															<div class="az-table__head-td az-kit__col5">Единица <a href="#" class="az-table-filter">фильтр</a></div>
-															<div class="az-table__head-td az-kit__col6">Цена <a href="#" class="az-table-filter">фильтр</a></div>
-															<div class="az-table__head-td az-kit__col7">Скидка <a href="#" class="az-table-filter">фильтр</a></div>
+								            <form action="/">
+									            <div class="az-kit__table az-table">
+													<div class="az-table__top">
+														<div class="az-table__head">
+															<div class="az-table__row">
+																<div class="az-table__head-td az-table__td_center az-kit__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-checkbox"><span></span></label></div>
+																<div class="az-table__head-td az-kit__col2">Номер товара <a href="#" class="az-sort">сортировать</a><a href="#" class="az-table-filter">фильтр</a></div>
+																<div class="az-table__head-td az-kit__col3">Название <a href="#" class="az-table-filter">фильтр</a></div>
+																<div class="az-table__head-td az-kit__col4">Кол-во <a href="#" class="az-table-filter">фильтр</a></div>
+																<div class="az-table__head-td az-kit__col5">Единица <a href="#" class="az-table-filter">фильтр</a></div>
+																<div class="az-table__head-td az-kit__col6">Цена <a href="#" class="az-table-filter">фильтр</a></div>
+																<div class="az-table__head-td az-kit__col7">Скидка <a href="#" class="az-table-filter">фильтр</a></div>
+															</div>
 														</div>
 													</div>
-												</div>
-												<div class="az-table__bottom">
-													<div class="az-table__body">
-														<div class="az-table__row">
-															<div class="az-table__td az-table__td_center az-kit__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out"><span></span></label><a href="#" class="az-table__plus az-plus js-subtable">+</a></div>
-															<div class="az-table__td az-kit__col2">1250 200 0049</div>
-															<div class="az-table__td az-kit__col3">STIHL Chainsaw Razor 3</div>
-															<div class="az-table__td az-kit__col4"><input type="text" class="az-table__input" value="1"></div>
-															<div class="az-table__td az-kit__col5">RUB</div>
-															<div class="az-table__td az-kit__col6">4560.50</div>
-															<div class="az-table__td az-kit__col7">15 %</div>
-														</div>
-														<div class="az-table__row">
-															<div class="az-table__td az-table__td_center az-kit__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out"><span></span></label><a href="#" class="az-table__plus az-plus az-plus__minus js-subtable">+</a></div>
-															<div class="az-table__td az-kit__col2">1250 200 0049</div>
-															<div class="az-table__td az-kit__col3">STIHL Chainsaw Razor 3</div>
-															<div class="az-table__td az-kit__col4"><input type="text" class="az-table__input" value="1"></div>
-															<div class="az-table__td az-kit__col5">RUB</div>
-															<div class="az-table__td az-kit__col6">4560.50</div>
-															<div class="az-table__td az-kit__col7">15 %</div>
-															<div class="az-kit__subtable az-table js-subtable-out" style="display: block;">
-																<div class="az-table__top2">
-																	<div class="az-table__head">
-																		<div class="az-table__row">
-																			<div class="az-table__head-td az-kit__subcol">Номер товара</div>
-																			<div class="az-table__head-td az-kit__subcol">Название</div>
+													<div class="az-table__bottom">
+														<div class="az-table__body">
+															<div class="az-table__row">
+																<div class="az-table__td az-table__td_center az-kit__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out"><span></span></label><a href="#" class="az-table__plus az-plus js-subtable">+</a></div>
+																<div class="az-table__td az-kit__col2">1250 200 0049</div>
+																<div class="az-table__td az-kit__col3">STIHL Chainsaw Razor 3</div>
+																<div class="az-table__td az-kit__col4"><input type="text" class="az-table__input" value="1"></div>
+																<div class="az-table__td az-kit__col5">RUB</div>
+																<div class="az-table__td az-kit__col6">4560.50</div>
+																<div class="az-table__td az-kit__col7">15 %</div>
+															</div>
+															<div class="az-table__row">
+																<div class="az-table__td az-table__td_center az-kit__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out"><span></span></label><a href="#" class="az-table__plus az-plus az-plus__minus js-subtable">+</a></div>
+																<div class="az-table__td az-kit__col2">1250 200 0049</div>
+																<div class="az-table__td az-kit__col3">STIHL Chainsaw Razor 3</div>
+																<div class="az-table__td az-kit__col4"><input type="text" class="az-table__input" value="1"></div>
+																<div class="az-table__td az-kit__col5">RUB</div>
+																<div class="az-table__td az-kit__col6">4560.50</div>
+																<div class="az-table__td az-kit__col7">15 %</div>
+																<div class="az-kit__subtable az-table js-subtable-out" style="display: block;">
+																	<div class="az-table__top2">
+																		<div class="az-table__head">
+																			<div class="az-table__row">
+																				<div class="az-table__head-td az-kit__subcol">Номер товара</div>
+																				<div class="az-table__head-td az-kit__subcol">Название</div>
+																			</div>
 																		</div>
 																	</div>
-																</div>
-																<div class="az-table__bottom2">
-																	<div class="az-table__body">
-																		<div class="az-table__row">
-																			<div class="az-table__td az-kit__subcol">1250 200 0049</div>
-																			<div class="az-table__td az-kit__subcol">STIHL Chainsaw Razor 3</div>
-																		</div>
-																		<div class="az-table__row">
-																			<div class="az-table__td az-kit__subcol">1250 200 0049</div>
-																			<div class="az-table__td az-kit__subcol">STIHL Chainsaw Razor 3</div>
-																		</div>
-																		<div class="az-table__row">
-																			<div class="az-table__td az-kit__subcol">1250 200 0049</div>
-																			<div class="az-table__td az-kit__subcol">STIHL Chainsaw Razor 3</div>
+																	<div class="az-table__bottom2">
+																		<div class="az-table__body">
+																			<div class="az-table__row">
+																				<div class="az-table__td az-kit__subcol">1250 200 0049</div>
+																				<div class="az-table__td az-kit__subcol">STIHL Chainsaw Razor 3</div>
+																			</div>
+																			<div class="az-table__row">
+																				<div class="az-table__td az-kit__subcol">1250 200 0049</div>
+																				<div class="az-table__td az-kit__subcol">STIHL Chainsaw Razor 3</div>
+																			</div>
+																			<div class="az-table__row">
+																				<div class="az-table__td az-kit__subcol">1250 200 0049</div>
+																				<div class="az-table__td az-kit__subcol">STIHL Chainsaw Razor 3</div>
+																			</div>
 																		</div>
 																	</div>
-																</div>
-												            </div>
-														</div>
-														<div class="az-table__row">
-															<div class="az-table__td az-table__td_center az-kit__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out"><span></span></label><a href="#" class="az-table__plus az-plus js-subtable">+</a></div>
-															<div class="az-table__td az-kit__col2">1250 200 0049</div>
-															<div class="az-table__td az-kit__col3">STIHL Chainsaw Razor 3</div>
-															<div class="az-table__td az-kit__col4"><input type="text" class="az-table__input" value="1"></div>
-															<div class="az-table__td az-kit__col5">RUB</div>
-															<div class="az-table__td az-kit__col6">4560.50</div>
-															<div class="az-table__td az-kit__col7">15 %</div>
+													            </div>
+															</div>
+															<div class="az-table__row">
+																<div class="az-table__td az-table__td_center az-kit__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out"><span></span></label><a href="#" class="az-table__plus az-plus js-subtable">+</a></div>
+																<div class="az-table__td az-kit__col2">1250 200 0049</div>
+																<div class="az-table__td az-kit__col3">STIHL Chainsaw Razor 3</div>
+																<div class="az-table__td az-kit__col4"><input type="text" class="az-table__input" value="1"></div>
+																<div class="az-table__td az-kit__col5">RUB</div>
+																<div class="az-table__td az-kit__col6">4560.50</div>
+																<div class="az-table__td az-kit__col7">15 %</div>
+															</div>
 														</div>
 													</div>
-												</div>
-								            </div>
-								            <div class="az-kit-bottom clearfix">
-								            	
+									            </div>
+									            <div class="az-kit__bottom clearfix">
+									            	<div class="az-kit__bottom-right">Количество</div>
+									            	<div class="az-kit__bottom-center">
+									            		<div class="az-pagination">
+									            			<div class="az-pagination__item"><a href="#" class="az-pagination__left2"> << </a></div>
+									            			<div class="az-pagination__item"><a href="#" class="az-pagination__left"> < </a></div>
+									            			<div class="az-pagination__item">
+																<span>Страница</span>
+																<input type="text" value="1">
+																<span>из 125</span>
+									            			</div>
+									            			<div class="az-pagination__item"><a href="#" class="az-pagination__right"> > </a></div>
+									            			<div class="az-pagination__item"><a href="#" class="az-pagination__right2"> >> </a></div>
+									            		</div>
+									            	</div>
+									            	<div class="az-kit__bottom-left">
+									            		<input type="submit" value="Добавить в корзину" class="az-button">
+									            	</div>
+								            	</form>
 								            </div>
 							            </div>
 							        </div>

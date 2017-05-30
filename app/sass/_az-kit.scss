@@ -182,3 +182,125 @@
 .az-sort + .az-table-filter{
 	right: 28px;
 }
+
+.az-kit__bottom-right{
+	display: none;
+	@include mobile(992){
+		display: block;
+	}
+}
+
+.az-kit__bottom-center{
+	margin: 15px 0;
+	@include mobile(768){
+		float: right;
+		width: 340px;
+	}
+}
+
+.az-kit__bottom-left{
+	margin: 15px 0;
+	@include mobile(768){
+		float: left;
+		width: 180px;
+	}
+}
+
+.az-pagination{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+}
+
+.az-pagination__item{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0;
+	span{
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 12px;
+		color: #565f66;
+		font-family: "RobotoRegular";
+	}
+	input{
+		color: #182229;
+		font-size: 12px;
+		height: 32px;
+		width: 48px;
+		border: 1px solid #d1d0cf;
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 10px;
+		padding: 0 7px;
+	}
+}
+
+.az-pagination__left2{
+	font-size: 0;
+	width: 15px;
+	height: 16px;
+	vertical-align: middle;
+	display: inline-block;
+	background: url('../img/az-pag-arrow.png') left center no-repeat, url('../img/az-pag-arrow.png') right center no-repeat;
+	opacity: 0.5;
+	margin-right: 5px;
+	&:hover{
+		opacity: 1;
+	}
+}
+
+.az-pagination__left{
+	font-size: 0;
+	width: 10px;
+	height: 16px;
+	vertical-align: middle;
+	display: inline-block;
+	background: url('../img/az-pag-arrow.png') left center no-repeat;
+	opacity: 0.5;
+	margin-right: 5px;
+	&:hover{
+		opacity: 1;
+	}
+}
+
+.az-pagination__right2{
+	@extend .az-pagination__left2;
+	transform: rotate(180deg);
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.az-pagination__right{
+	@extend .az-pagination__left;
+	transform: rotate(180deg);
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.az-button{
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	display: inline-block;
+	vertical-align: top;
+	color: #fff;
+	background: #f37a1f;
+	text-decoration: none;
+	border: 0;
+	font-family: "RobotoBold";
+	letter-spacing: 0.016em;
+	font-weight: normal;
+	text-align: center;
+	font-size: 12px;
+	&:active, &:focus{
+		text-decoration: none;
+		color: #fff;
+	}
+	&:hover{
+		text-decoration: none;
+		color: #fff;
+		background: darken(#f37a1f, 10%);
+	}
+}
