@@ -33,6 +33,32 @@ $(function() {
 	        }).filter(':first').click();
 	     
     }
+
+
+	if($('.ah-select1').length>0){
+	 
+	    $('.ah-select1').selectpicker({
+		  size: 4
+		});
+
+
+	}
+
+	if($("#slider-range-min").length>0){
+
+	    $( "#slider-range-min" ).slider({
+	      range: "min",
+	      value: 100,
+	      min: 1,
+	      max: 100,
+	      slide: function( event, ui ) {
+	        $( "#amount" ).val( ui.value + "%");
+	      }
+	    });
+	    $( "#amount" ).val( $( "#slider-range-min" ).slider( "value" ) + "%" );
+
+    }
+
 	
 
 });
