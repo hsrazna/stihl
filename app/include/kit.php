@@ -46,18 +46,17 @@
 									            	<a href="#" class="az-excel">Скачать в Excel</a>
 									            </div>
 								            </div>
-
 								            <div class="az-kit__table az-table">
 												<div class="az-table__top">
 													<div class="az-table__head">
 														<div class="az-table__row">
 															<div class="az-table__head-td az-table__td_center az-kit__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-checkbox"><span></span></label></div>
-															<div class="az-table__head-td az-kit__col2">Номер товара <a href="#" class="az-sort">сортировать</a></div>
-															<div class="az-table__head-td az-kit__col3">Название</div>
-															<div class="az-table__head-td az-kit__col4">Кол-во</div>
-															<div class="az-table__head-td az-kit__col5">Единица</div>
-															<div class="az-table__head-td az-kit__col6">Цена</div>
-															<div class="az-table__head-td az-kit__col7">Скидка</div>
+															<div class="az-table__head-td az-kit__col2">Номер товара <a href="#" class="az-sort">сортировать</a><a href="#" class="az-table-filter">фильтр</a></div>
+															<div class="az-table__head-td az-kit__col3">Название <a href="#" class="az-table-filter">фильтр</a></div>
+															<div class="az-table__head-td az-kit__col4">Кол-во <a href="#" class="az-table-filter">фильтр</a></div>
+															<div class="az-table__head-td az-kit__col5">Единица <a href="#" class="az-table-filter">фильтр</a></div>
+															<div class="az-table__head-td az-kit__col6">Цена <a href="#" class="az-table-filter">фильтр</a></div>
+															<div class="az-table__head-td az-kit__col7">Скидка <a href="#" class="az-table-filter">фильтр</a></div>
 														</div>
 													</div>
 												</div>
@@ -118,6 +117,9 @@
 														</div>
 													</div>
 												</div>
+								            </div>
+								            <div class="az-kit-bottom clearfix">
+								            	
 								            </div>
 							            </div>
 							        </div>
