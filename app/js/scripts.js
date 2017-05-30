@@ -87,7 +87,15 @@ $(function() {
 	// 	$(".az-table__top2").css({ left: $(".az-table__bottom2 .jspPane").css("left")});
 	// });
 
-	
+	$(".js-checkbox").change(function(){
+		$(".js-check-out").prop("checked", $(this).is(':checked'));
+	});
+
+	$(".js-subtable").click(function(){
+		$(this).toggleClass("az-plus__minus");
+		$(this).parents(".az-table__row").find(".js-subtable-out").slideToggle(300);
+		return false;
+	});
 
 });
 
