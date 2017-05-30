@@ -120,7 +120,23 @@
 													</div>
 									            </div>
 									            <div class="az-kit__bottom clearfix">
-									            	<div class="az-kit__bottom-right">Количество</div>
+									            	<div class="az-kit__bottom-right">
+									            		<div class="az-number">
+										            		<span class="az-number__text">Количество</span>
+										            		<div class="az-number__select">
+											            		<div class="ah-selectbox">
+																	<select class="ah-select1">
+																		<option>10</option>
+																		<option>30</option>
+																		<option>50</option>
+																	</select>
+																</div>
+															</div>
+														</div>
+									            	</div>
+									            	<div class="az-kit__bottom-left">
+									            		<input type="submit" value="Добавить в корзину" class="az-button">
+									            	</div>
 									            	<div class="az-kit__bottom-center">
 									            		<div class="az-pagination">
 									            			<div class="az-pagination__item"><a href="#" class="az-pagination__left2"> << </a></div>
@@ -134,9 +150,7 @@
 									            			<div class="az-pagination__item"><a href="#" class="az-pagination__right2"> >> </a></div>
 									            		</div>
 									            	</div>
-									            	<div class="az-kit__bottom-left">
-									            		<input type="submit" value="Добавить в корзину" class="az-button">
-									            	</div>
+									            	
 								            	</form>
 								            </div>
 							            </div>
