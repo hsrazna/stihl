@@ -32,7 +32,7 @@
 									<li class="ah-cardtabs__item"><a href="#tab-6" class="ah-tabsheader-link ah-cardtabs-link ah-cardlink2">Технические документы</a></li>
 							    </ul>
 							    <div class="ah-tabs__tabsbox ah-tabsbox ah-cardtabsbox">
-							        <div id="tab-6" class="ah-tabsbox__item ah-cardtab1-wrapp">
+							        <div id="tab-1" class="ah-tabsbox__item ah-cardtab1-wrapp">
 							        	1
 							        </div>
 							        <div id="tab-2" class="ah-tabsbox__item">
@@ -47,7 +47,7 @@
 							        <div id="tab-5" class="ah-tabsbox__item">
 							            555 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam magnam velit at aut eius, quod consequuntur possimus accusantium! Quo molestias nesciunt voluptates, blanditiis dolorem doloremque. Dolorum sequi asperiores soluta vero!
 							        </div>
-							        <div id="tab-1" class="ah-tabsbox__item">
+							        <div id="tab-6" class="ah-tabsbox__item">
 							            <div class="az-kit">
 							        		<div class="clearfix">
 								        		<div class="az-kit__head">
