@@ -42,48 +42,138 @@
 													<div class="az-table__top">
 														<div class="az-table__head">
 															<div class="az-table__row">
-																<div class="az-table__head-td az-table__td_center az-accessory__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-checkbox js-button-on-off"><span></span></label></div>
-																<div class="az-table__head-td az-accessory__col2">Дата создания <a href="#" class="az-sort">сортировать</a><a href="#" class="az-table-filter">фильтр</a></div>
-																<div class="az-table__head-td az-accessory__col3">Кем создано <a href="#" class="az-table-filter">фильтр</a></div>
-																<div class="az-table__head-td az-accessory__col4">Имя корзины <a href="#" class="az-table-filter">фильтр</a></div>
-																<div class="az-table__head-td az-accessory__col5">Единица <a href="#" class="az-table-filter">фильтр</a></div>
-																<div class="az-table__head-td az-accessory__col6">Цена <a href="#" class="az-table-filter">фильтр</a></div>
-																<div class="az-table__head-td az-accessory__col7">Скидка <a href="#" class="az-table-filter">фильтр</a></div>
-																<div class="az-table__head-td az-accessory__col8">Итоговая цена <a href="#" class="az-table-filter">фильтр</a></div>
+																<div class="az-table__head-td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-checkbox js-button-on-off"><span></span></label></div>
+																<div class="az-table__head-td az-basket__col2">Дата создания <a href="#" class="az-sort">сортировать</a><a href="#" class="az-table-filter">фильтр</a></div>
+																<div class="az-table__head-td az-basket__col3">Кем создано <a href="#" class="az-table-filter">фильтр</a></div>
+																<div class="az-table__head-td az-basket__col4">Имя корзины <a href="#" class="az-table-filter">фильтр</a></div>
+																<div class="az-table__head-td az-basket__col5">Единица <a href="#" class="az-table-filter">фильтр</a></div>
+																<div class="az-table__head-td az-basket__col6">Цена <a href="#" class="az-table-filter">фильтр</a></div>
+																<div class="az-table__head-td az-basket__col7">Скидка <a href="#" class="az-table-filter">фильтр</a></div>
+																<div class="az-table__head-td az-basket__col8">Итоговая цена <a href="#" class="az-table-filter">фильтр</a></div>
 															</div>
 														</div>
 													</div>
 													<div class="az-table__bottom">
 														<div class="az-table__body">
 															<div class="az-table__row">
-																<div class="az-table__td az-table__td_center az-accessory__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
-																<div class="az-table__td az-accessory__col2">22.03.2017</div>
-																<div class="az-table__td az-accessory__col3">Scabbard 30 - 35 cm 3005 mini</div>
-																<div class="az-table__td az-accessory__col4">New basket</div>
-																<div class="az-table__td az-accessory__col5">RU</div>
-																<div class="az-table__td az-accessory__col6">4560.50</div>
-																<div class="az-table__td az-accessory__col7">15 %</div>
-																<div class="az-table__td az-accessory__col8">4280.50</div>
+																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
+																<div class="az-table__td az-basket__col2">22.03.2017</div>
+																<div class="az-table__td az-basket__col3">Scabbard 30 - 35 cm 3005 mini</div>
+																<div class="az-table__td az-basket__col4">New basket</div>
+																<div class="az-table__td az-basket__col5">RU</div>
+																<div class="az-table__td az-basket__col6">4560.50</div>
+																<div class="az-table__td az-basket__col7">15 %</div>
+																<div class="az-table__td az-basket__col8">4280.50</div>
 															</div>
 															<div class="az-table__row">
-																<div class="az-table__td az-table__td_center az-accessory__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
-																<div class="az-table__td az-accessory__col2">22.03.2017</div>
-																<div class="az-table__td az-accessory__col3">Scabbard 30 - 35 cm 3005 mini</div>
-																<div class="az-table__td az-accessory__col4">New basket 2</div>
-																<div class="az-table__td az-accessory__col5">RU</div>
-																<div class="az-table__td az-accessory__col6">4560.50</div>
-																<div class="az-table__td az-accessory__col7">15 %</div>
-																<div class="az-table__td az-accessory__col8">4280.50</div>
+																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
+																<div class="az-table__td az-basket__col2">22.03.2017</div>
+																<div class="az-table__td az-basket__col3">Scabbard 30 - 35 cm 3005 mini</div>
+																<div class="az-table__td az-basket__col4">New basket 2</div>
+																<div class="az-table__td az-basket__col5">RU</div>
+																<div class="az-table__td az-basket__col6">4560.50</div>
+																<div class="az-table__td az-basket__col7">15 %</div>
+																<div class="az-table__td az-basket__col8">4280.50</div>
 															</div>
 															<div class="az-table__row">
-																<div class="az-table__td az-table__td_center az-accessory__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
-																<div class="az-table__td az-accessory__col2">22.03.2017</div>
-																<div class="az-table__td az-accessory__col3">Scabbard 30 - 35 cm 3005 mini</div>
-																<div class="az-table__td az-accessory__col4">New basket 3</div>
-																<div class="az-table__td az-accessory__col5">RU</div>
-																<div class="az-table__td az-accessory__col6">4560.50</div>
-																<div class="az-table__td az-accessory__col7">15 %</div>
-																<div class="az-table__td az-accessory__col8">4280.50</div>
+																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
+																<div class="az-table__td az-basket__col2">22.03.2017</div>
+																<div class="az-table__td az-basket__col3">Scabbard 30 - 35 cm 3005 mini</div>
+																<div class="az-table__td az-basket__col4">New basket 3</div>
+																<div class="az-table__td az-basket__col5">RU</div>
+																<div class="az-table__td az-basket__col6">4560.50</div>
+																<div class="az-table__td az-basket__col7">15 %</div>
+																<div class="az-table__td az-basket__col8">4280.50</div>
+															</div>
+															<div class="az-table__row">
+																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
+																<div class="az-table__td az-basket__col2">22.03.2017</div>
+																<div class="az-table__td az-basket__col3">Scabbard 30 - 35 cm 3005 mini</div>
+																<div class="az-table__td az-basket__col4">New basket</div>
+																<div class="az-table__td az-basket__col5">RU</div>
+																<div class="az-table__td az-basket__col6">4560.50</div>
+																<div class="az-table__td az-basket__col7">15 %</div>
+																<div class="az-table__td az-basket__col8">4280.50</div>
+															</div>
+															<div class="az-table__row">
+																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
+																<div class="az-table__td az-basket__col2">22.03.2017</div>
+																<div class="az-table__td az-basket__col3">Scabbard 30 - 35 cm 3005 mini</div>
+																<div class="az-table__td az-basket__col4">New basket 2</div>
+																<div class="az-table__td az-basket__col5">RU</div>
+																<div class="az-table__td az-basket__col6">4560.50</div>
+																<div class="az-table__td az-basket__col7">15 %</div>
+																<div class="az-table__td az-basket__col8">4280.50</div>
+															</div>
+															<div class="az-table__row">
+																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
+																<div class="az-table__td az-basket__col2">22.03.2017</div>
+																<div class="az-table__td az-basket__col3">Scabbard 30 - 35 cm 3005 mini</div>
+																<div class="az-table__td az-basket__col4">New basket 3</div>
+																<div class="az-table__td az-basket__col5">RU</div>
+																<div class="az-table__td az-basket__col6">4560.50</div>
+																<div class="az-table__td az-basket__col7">15 %</div>
+																<div class="az-table__td az-basket__col8">4280.50</div>
+															</div>
+															<div class="az-table__row">
+																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
+																<div class="az-table__td az-basket__col2">22.03.2017</div>
+																<div class="az-table__td az-basket__col3">Scabbard 30 - 35 cm 3005 mini</div>
+																<div class="az-table__td az-basket__col4">New basket</div>
+																<div class="az-table__td az-basket__col5">RU</div>
+																<div class="az-table__td az-basket__col6">4560.50</div>
+																<div class="az-table__td az-basket__col7">15 %</div>
+																<div class="az-table__td az-basket__col8">4280.50</div>
+															</div>
+															<div class="az-table__row">
+																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
+																<div class="az-table__td az-basket__col2">22.03.2017</div>
+																<div class="az-table__td az-basket__col3">Scabbard 30 - 35 cm 3005 mini</div>
+																<div class="az-table__td az-basket__col4">New basket 2</div>
+																<div class="az-table__td az-basket__col5">RU</div>
+																<div class="az-table__td az-basket__col6">4560.50</div>
+																<div class="az-table__td az-basket__col7">15 %</div>
+																<div class="az-table__td az-basket__col8">4280.50</div>
+															</div>
+															<div class="az-table__row">
+																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
+																<div class="az-table__td az-basket__col2">22.03.2017</div>
+																<div class="az-table__td az-basket__col3">Scabbard 30 - 35 cm 3005 mini</div>
+																<div class="az-table__td az-basket__col4">New basket 3</div>
+																<div class="az-table__td az-basket__col5">RU</div>
+																<div class="az-table__td az-basket__col6">4560.50</div>
+																<div class="az-table__td az-basket__col7">15 %</div>
+																<div class="az-table__td az-basket__col8">4280.50</div>
+															</div>
+															<div class="az-table__row">
+																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
+																<div class="az-table__td az-basket__col2">22.03.2017</div>
+																<div class="az-table__td az-basket__col3">Scabbard 30 - 35 cm 3005 mini</div>
+																<div class="az-table__td az-basket__col4">New basket</div>
+																<div class="az-table__td az-basket__col5">RU</div>
+																<div class="az-table__td az-basket__col6">4560.50</div>
+																<div class="az-table__td az-basket__col7">15 %</div>
+																<div class="az-table__td az-basket__col8">4280.50</div>
+															</div>
+															<div class="az-table__row">
+																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
+																<div class="az-table__td az-basket__col2">22.03.2017</div>
+																<div class="az-table__td az-basket__col3">Scabbard 30 - 35 cm 3005 mini</div>
+																<div class="az-table__td az-basket__col4">New basket 2</div>
+																<div class="az-table__td az-basket__col5">RU</div>
+																<div class="az-table__td az-basket__col6">4560.50</div>
+																<div class="az-table__td az-basket__col7">15 %</div>
+																<div class="az-table__td az-basket__col8">4280.50</div>
+															</div>
+															<div class="az-table__row">
+																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
+																<div class="az-table__td az-basket__col2">22.03.2017</div>
+																<div class="az-table__td az-basket__col3">Scabbard 30 - 35 cm 3005 mini</div>
+																<div class="az-table__td az-basket__col4">New basket 3</div>
+																<div class="az-table__td az-basket__col5">RU</div>
+																<div class="az-table__td az-basket__col6">4560.50</div>
+																<div class="az-table__td az-basket__col7">15 %</div>
+																<div class="az-table__td az-basket__col8">4280.50</div>
 															</div>
 														</div>
 													</div>
@@ -103,19 +193,6 @@
 															</div>
 														</div>
 									            	</div>
-									            	<div class="az-kit__bottom-center">
-									            		<div class="az-pagination">
-									            			<div class="az-pagination__item"><a href="#" class="az-pagination__left2"> << </a></div>
-									            			<div class="az-pagination__item"><a href="#" class="az-pagination__left"> < </a></div>
-									            			<div class="az-pagination__item">
-																<span>Страница</span>
-																<input type="text" value="1">
-																<span>из 125</span>
-									            			</div>
-									            			<div class="az-pagination__item"><a href="#" class="az-pagination__right"> > </a></div>
-									            			<div class="az-pagination__item"><a href="#" class="az-pagination__right2"> >> </a></div>
-									            		</div>
-									            	</div>
 									            	<div class="az-kit__bottom-left">
 									            		<div class="az-basket-button">
 									            			<div class="az-basket-button__1">
@@ -129,7 +206,19 @@
 										            		</div>
 									            		</div>
 									            	</div>
-									            	
+									            	<div class="az-kit__bottom-center">
+									            		<div class="az-pagination">
+									            			<div class="az-pagination__item"><a href="#" class="az-pagination__left2"> << </a></div>
+									            			<div class="az-pagination__item"><a href="#" class="az-pagination__left"> < </a></div>
+									            			<div class="az-pagination__item">
+																<span>Страница</span>
+																<input type="text" value="1">
+																<span>из 125</span>
+									            			</div>
+									            			<div class="az-pagination__item"><a href="#" class="az-pagination__right"> > </a></div>
+									            			<div class="az-pagination__item"><a href="#" class="az-pagination__right2"> >> </a></div>
+									            		</div>
+									            	</div>
 								            	</form>
 								            </div>
 							            </div>
