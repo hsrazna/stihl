@@ -136,13 +136,13 @@
 											</div>
 										</div>
 							        </div>
-							        <div id="tab-2" class="ah-tabsbox__item">
+							        <div id="tab-2" class="ah-tabsbox__item ah-cardtab1-wrapp">
 							            222 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam magnam velit at aut eius, quod consequuntur possimus accusantium! Quo molestias nesciunt voluptates, blanditiis dolorem doloremque. Dolorum sequi asperiores soluta vero!
 							        </div>
-							        <div id="tab-3" class="ah-tabsbox__item">
+							        <div id="tab-3" class="ah-tabsbox__item ah-cardtab1-wrapp">
 							            333 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam magnam velit at aut eius, quod consequuntur possimus accusantium! Quo molestias nesciunt voluptates, blanditiis dolorem doloremque. Dolorum sequi asperiores soluta vero!
 							        </div>
-							        <div id="tab-4" class="ah-tabsbox__item">
+							        <div id="tab-4" class="ah-tabsbox__item ah-cardtab1-wrapp">
 							        	<div class="row">
 								        	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 									        	<span class="ah-cardleftbox-span">MSA 160 C-BQ Cordless Chainsaw</span>
@@ -168,37 +168,210 @@
 												</div>
 											</div>
 											<div class="clearfix">
-												<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+												<div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
 													<div class="ah-zapchasti-wrapp">
-														<div class="ah-zapchasti-frame">
-															<img src="img/ah-zapfon.jpg" class="img-responsive" alt="img">
-															<ul class="ah-zapinstruments-list">
-																<li><a href="#" class="ah-zapinstruments-listlink"></a></li>
-																<li><a href="#" class="ah-zapinstruments-listlink1"></a></li>
-																<li><a href="#" class="ah-zapinstruments-listlink2"></a></li>
-																<li><a href="#" class="ah-zapinstruments-listlink3"></a></li>
-																<li><a href="#" class="ah-zapinstruments-listlink4"></a></li>
-																<li><a href="#" class="ah-zapinstruments-listlink5"></a></li>
-																<li><a href="#" class="ah-zapinstruments-listlink6"></a></li>
-															</ul>
-															<div class="ah-zapsliderrange-wrap">
-																<label for="amount">Maximum price:</label>
-																<div id="slider-range-min"></div>
-																<input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+														<div class="ah-zapchasti-frame az-scroll">
+															<img src="img/ah-zapfon.jpg" alt="img">
+														</div>
+														<ul class="ah-zapinstruments-list">
+															<li><a href="#" class="ah-zapinstruments-listlink"></a></li>
+															<li><a href="#" class="ah-zapinstruments-listlink1"></a></li>
+															<li><a href="#" class="ah-zapinstruments-listlink2"></a></li>
+															<li><a href="#" class="ah-zapinstruments-listlink3"></a></li>
+															<li><a href="#" class="ah-zapinstruments-listlink4"></a></li>
+															<li><a href="#" class="ah-zapinstruments-listlink5"></a></li>
+															<li><a href="#" class="ah-zapinstruments-listlink6"></a></li>
+														</ul>
+														<div class="ah-zapsliderrange-wrap">
+															<form class="ah-sliderform">
+																<label for="amount">Масштаб</label>
+																<div id="slider-range-min" class="ah-rangeslider"></div>
+																<input type="text" id="amount" readonly >
+															</form>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 no-padd">
+													<div class="ah-table">
+														<div class="ah-tabletop">
+															<div class="ah-cell1">
+																<span class="ah-tabletitle">Позиция</span>
+															</div>
+															<div class="ah-cell2">
+																<span class="ah-tabletitle">Номер</span>
+															</div>
+															<div class="ah-cell3">
+																<span class="ah-tabletitle">Название</span>
+															</div>
+															<div class="ah-cell4">
+																<span class="ah-tabletitle">Кол-во</span>
+															</div>
+														</div>
+														<div class="ah-tablebottom az-scroll">
+															<div class="ah-tablebottom-row">
+																<div class="ah-rowcell1">
+																	<span class="ah-tablespan">1</span>
+																</div>
+																<div class="ah-rowcell2">
+																	<span class="ah-tablespan">5910 850 1651</span>
+																</div>
+																<div class="ah-rowcell3">
+																	<span class="ah-tablespan">Assembly stand</span>
+																</div>
+																<div class="ah-rowcell4">
+																	<input type="text" value="1">
+																</div>
+															</div>
+															<div class="ah-tablebottom-row ah-tablebottom-rowgrey">
+																<div class="ah-rowcell1">
+																	<span class="ah-tablespan">2</span>
+																</div>
+																<div class="ah-rowcell2">
+																	<span class="ah-tablespan">5910 850 1651</span>
+																</div>
+																<div class="ah-rowcell3">
+																	<span class="ah-tablespan">Assembly stand</span>
+																</div>
+																<div class="ah-rowcell4">
+																	<input type="text" value="0">
+																</div>
+															</div>
+															<div class="ah-tablebottom-row">
+																<div class="ah-rowcell1">
+																	<span class="ah-tablespan">3</span>
+																</div>
+																<div class="ah-rowcell2">
+																	<span class="ah-tablespan">5910 850 1651</span>
+																</div>
+																<div class="ah-rowcell3">
+																	<span class="ah-tablespan">Assembly stand</span>
+																</div>
+																<div class="ah-rowcell4">
+																	<input type="text" value="0">
+																</div>
+															</div>
+															<div class="ah-tablebottom-row ah-tablebottom-rowgrey">
+																<div class="ah-rowcell1">
+																	<span class="ah-tablespan">4</span>
+																</div>
+																<div class="ah-rowcell2">
+																	<span class="ah-tablespan">5910 850 1651</span>
+																</div>
+																<div class="ah-rowcell3">
+																	<span class="ah-tablespan">Assembly stand</span>
+																</div>
+																<div class="ah-rowcell4">
+																	<input type="text" value="0">
+																</div>
+															</div>
+															<div class="ah-tablebottom-row">
+																<div class="ah-rowcell1">
+																	<span class="ah-tablespan">5</span>
+																</div>
+																<div class="ah-rowcell2">
+																	<span class="ah-tablespan">5910 850 1651</span>
+																</div>
+																<div class="ah-rowcell3">
+																	<span class="ah-tablespan">Assembly stand</span>
+																</div>
+																<div class="ah-rowcell4">
+																	<input type="text" value="0">
+																</div>
+															</div>
+															<div class="ah-tablebottom-row ah-tablebottom-rowgrey">
+																<div class="ah-rowcell1">
+																	<span class="ah-tablespan">6</span>
+																</div>
+																<div class="ah-rowcell2">
+																	<span class="ah-tablespan">5910 850 1651</span>
+																</div>
+																<div class="ah-rowcell3">
+																	<span class="ah-tablespan">Assembly stand</span>
+																</div>
+																<div class="ah-rowcell4">
+																	<input type="text" value="0">
+																</div>
+															</div>
+															<div class="ah-tablebottom-row">
+																<div class="ah-rowcell1">
+																	<span class="ah-tablespan">7</span>
+																</div>
+																<div class="ah-rowcell2">
+																	<span class="ah-tablespan">5910 850 1651</span>
+																</div>
+																<div class="ah-rowcell3">
+																	<span class="ah-tablespan">Assembly stand</span>
+																</div>
+																<div class="ah-rowcell4">
+																	<input type="text" value="0">
+																</div>
+															</div>
+															<div class="ah-tablebottom-row">
+																<div class="ah-rowcell1">
+																	<span class="ah-tablespan">1</span>
+																</div>
+																<div class="ah-rowcell2">
+																	<span class="ah-tablespan">5910 850 1651</span>
+																</div>
+																<div class="ah-rowcell3">
+																	<span class="ah-tablespan">Assembly stand</span>
+																</div>
+																<div class="ah-rowcell4">
+																	<input type="text" value="1">
+																</div>
+															</div>
+															<div class="ah-tablebottom-row ah-tablebottom-rowgrey">
+																<div class="ah-rowcell1">
+																	<span class="ah-tablespan">2</span>
+																</div>
+																<div class="ah-rowcell2">
+																	<span class="ah-tablespan">5910 850 1651</span>
+																</div>
+																<div class="ah-rowcell3">
+																	<span class="ah-tablespan">Assembly stand</span>
+																</div>
+																<div class="ah-rowcell4">
+																	<input type="text" value="0">
+																</div>
+															</div>
+															<div class="ah-tablebottom-row">
+																<div class="ah-rowcell1">
+																	<span class="ah-tablespan">3</span>
+																</div>
+																<div class="ah-rowcell2">
+																	<span class="ah-tablespan">5910 850 1651</span>
+																</div>
+																<div class="ah-rowcell3">
+																	<span class="ah-tablespan">Assembly stand</span>
+																</div>
+																<div class="ah-rowcell4">
+																	<input type="text" value="0">
+																</div>
+															</div>
+															<div class="ah-tablebottom-row ah-tablebottom-rowgrey">
+																<div class="ah-rowcell1">
+																	<span class="ah-tablespan">4</span>
+																</div>
+																<div class="ah-rowcell2">
+																	<span class="ah-tablespan">5910 850 1651</span>
+																</div>
+																<div class="ah-rowcell3">
+																	<span class="ah-tablespan">Assembly stand</span>
+																</div>
+																<div class="ah-rowcell4">
+																	<input type="text" value="0">
+																</div>
 															</div>
 														</div>
 													</div>
 												</div>
-												<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-													
-												</div>
 											</div>
 										</div>
 							        </div>
-							        <div id="tab-5" class="ah-tabsbox__item">
+							        <div id="tab-5" class="ah-tabsbox__item ah-cardtab1-wrapp">
 							            555 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam magnam velit at aut eius, quod consequuntur possimus accusantium! Quo molestias nesciunt voluptates, blanditiis dolorem doloremque. Dolorum sequi asperiores soluta vero!
 							        </div>
-							        <div id="tab-6" class="ah-tabsbox__item">
+							        <div id="tab-6" class="ah-tabsbox__item ah-cardtab1-wrapp">
 							            666 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam magnam velit at aut eius, quod consequuntur possimus accusantium! Quo molestias nesciunt voluptates, blanditiis dolorem doloremque. Dolorum sequi asperiores soluta vero!
 							        </div>
 							    </div>
