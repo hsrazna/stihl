@@ -312,6 +312,14 @@
 	}
 }
 
+.az-button__disabled{
+	background: #d1d0cf;
+	cursor: arrow;
+	&:hover{
+		background: #d1d0cf;
+	}
+}
+
 .az-number{
 	font-size: 0;
 }

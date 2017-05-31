@@ -32,10 +32,10 @@
 									<li class="ah-cardtabs__item"><a href="#tab-6" class="ah-tabsheader-link ah-cardtabs-link ah-cardlink2">Технические документы</a></li>
 							    </ul>
 							    <div class="ah-tabs__tabsbox ah-tabsbox ah-cardtabsbox">
-							        <div id="tab-2" class="ah-tabsbox__item ah-cardtab1-wrapp">
+							        <div id="tab-1" class="ah-tabsbox__item ah-cardtab1-wrapp">
 							        	
 							        </div>
-							        <div id="tab-1" class="ah-tabsbox__item">
+							        <div id="tab-2" class="ah-tabsbox__item">
 							        	<div class="az-kit">
 							        		<div class="clearfix">
 								        		<div class="az-kit__head">
@@ -51,7 +51,7 @@
 													<div class="az-table__top">
 														<div class="az-table__head">
 															<div class="az-table__row">
-																<div class="az-table__head-td az-table__td_center az-kit__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-checkbox"><span></span></label></div>
+																<div class="az-table__head-td az-table__td_center az-kit__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-checkbox js-button-on-off"><span></span></label></div>
 																<div class="az-table__head-td az-kit__col2">Номер товара <a href="#" class="az-sort">сортировать</a><a href="#" class="az-table-filter">фильтр</a></div>
 																<div class="az-table__head-td az-kit__col3">Название <a href="#" class="az-table-filter">фильтр</a></div>
 																<div class="az-table__head-td az-kit__col4">Кол-во <a href="#" class="az-table-filter">фильтр</a></div>
@@ -64,7 +64,7 @@
 													<div class="az-table__bottom">
 														<div class="az-table__body">
 															<div class="az-table__row">
-																<div class="az-table__td az-table__td_center az-kit__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out"><span></span></label><a href="#" class="az-table__plus az-plus js-subtable">+</a></div>
+																<div class="az-table__td az-table__td_center az-kit__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label><a href="#" class="az-table__plus az-plus js-subtable">+</a></div>
 																<div class="az-table__td az-kit__col2">1250 200 0049</div>
 																<div class="az-table__td az-kit__col3">STIHL Chainsaw Razor 3</div>
 																<div class="az-table__td az-kit__col4"><input type="text" class="az-table__input" value="1"></div>
@@ -73,7 +73,7 @@
 																<div class="az-table__td az-kit__col7">15 %</div>
 															</div>
 															<div class="az-table__row">
-																<div class="az-table__td az-table__td_center az-kit__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out"><span></span></label><a href="#" class="az-table__plus az-plus az-plus__minus js-subtable">+</a></div>
+																<div class="az-table__td az-table__td_center az-kit__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label><a href="#" class="az-table__plus az-plus az-plus__minus js-subtable">+</a></div>
 																<div class="az-table__td az-kit__col2">1250 200 0049</div>
 																<div class="az-table__td az-kit__col3">STIHL Chainsaw Razor 3</div>
 																<div class="az-table__td az-kit__col4"><input type="text" class="az-table__input" value="1"></div>
@@ -108,7 +108,7 @@
 													            </div>
 															</div>
 															<div class="az-table__row">
-																<div class="az-table__td az-table__td_center az-kit__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out"><span></span></label><a href="#" class="az-table__plus az-plus js-subtable">+</a></div>
+																<div class="az-table__td az-table__td_center az-kit__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label><a href="#" class="az-table__plus az-plus js-subtable">+</a></div>
 																<div class="az-table__td az-kit__col2">1250 200 0049</div>
 																<div class="az-table__td az-kit__col3">STIHL Chainsaw Razor 3</div>
 																<div class="az-table__td az-kit__col4"><input type="text" class="az-table__input" value="1"></div>
@@ -135,7 +135,7 @@
 														</div>
 									            	</div>
 									            	<div class="az-kit__bottom-left">
-									            		<input type="submit" value="Добавить в корзину" class="az-button">
+									            		<input type="submit" value="Добавить в корзину" class="az-button js-button-on-off-out">
 									            	</div>
 									            	<div class="az-kit__bottom-center">
 									            		<div class="az-pagination">
@@ -150,7 +150,6 @@
 									            			<div class="az-pagination__item"><a href="#" class="az-pagination__right2"> >> </a></div>
 									            		</div>
 									            	</div>
-									            	
 								            	</form>
 								            </div>
 							            </div>

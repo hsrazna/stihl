@@ -113,13 +113,60 @@ $(function() {
 	// 	$(".az-table__top2").css({ left: $(".az-table__bottom2 .jspPane").css("left")});
 	// });
 
+	var check_enabled = function(){
+		var bool = false;
+		$(".js-button-on-off").each(function(){
+			if($(this).is(':checked')){
+				bool = true;
+			}
+		});
+		if(bool){
+			$(".js-button-on-off-out").removeClass("az-button__disabled");
+		} else {
+			$(".js-button-on-off-out").addClass("az-button__disabled");
+		}
+	}
+
+	var check_disabled = function(){
+		var bool = -1;
+		$(".js-check-out").each(function(){
+			if($(this).is(':checked')){
+				bool = 1;
+			}
+		});
+		$(".js-check-out").each(function(){
+			if(!$(this).is(':checked') && bool == 1){
+				bool = 0;
+			}
+		});
+		if(bool == 1){
+			$(".js-checkbox").prop("checked", true);
+		} else if(bool == -1){
+			$(".js-checkbox").prop("checked", false);
+		}
+	}
+
+	check_enabled();
+
 	$(".js-checkbox").change(function(){
 		$(".js-check-out").prop("checked", $(this).is(':checked'));
+	});
+
+	$(".js-check-out").change(function(){
+		check_disabled();
+	});
+
+	$(".js-button-on-off").change(function(){
+		check_enabled();
 	});
 
 	$(".js-subtable").click(function(){
 		$(this).toggleClass("az-plus__minus");
 		$(this).parents(".az-table__row").find(".js-subtable-out").slideToggle(300);
+		return false;
+	});
+
+	$(".az-button__disabled").click(function(){
 		return false;
 	});
 
