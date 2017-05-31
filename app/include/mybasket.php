@@ -336,3 +336,46 @@
 		</div>
 	</div>
 </section>
+
+<div class="container">
+	<div class="az-basket-popup">
+		<div class="az-basket-popup__head">
+			<h3 class="az-basket-popup__title">Имя корзины</h3>
+		</div>
+		<div class="az-basket-popup__filter">
+			<div class="az-basket-search">
+				<div class="az-basket-search__name">
+					<p class="az-text">Поиск</p>
+				</div>
+				<div class="az-basket-search__select">
+					<div class="ah-selectbox">
+						<select class="ah-select1">
+							<option>Содержащийся</option>
+							<option>Содержащийся2</option>
+							<option>50</option>
+						</select>
+					</div>
+				</div>
+				<div class="az-basket-search__search">
+					<div class="az-search">
+	        			<div class="az-search__cell">
+		        			<input type="text" class="az-search__input">
+	        			</div>
+	        			<div class="az-search__cell2">
+		        			<input type="submit" value="Искать" class="az-search__submit">
+	        			</div>
+        			</div>
+				</div>
+			</div>
+			<div class="az-basket-filter">
+				<div class="az-basket-filter__name">
+					<p class="az-text">Поиск</p>
+				</div>
+				<div class="az-basket-filter__filter">
+					<label class="az-radio"><input type="radio" name="az-radio1" id="" checked><span>Выбрать все</span></label>
+        			<label class="az-radio"><input type="radio" name="az-radio1" id=""><span>Отменить выбор</span></label>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
