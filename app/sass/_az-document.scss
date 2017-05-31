@@ -1,0 +1,37 @@
+.az-document__table{
+	width: 100%;
+	.az-table__top, .az-table__bottom, .jspPane{
+		width: 100% !important;
+	}
+	.az-sort{
+		right: 8px;
+	}
+}
+
+.az-document__col1, .az-document__col2{
+	width: 50%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	>.ah-tablink{
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		width: 100%;
+	}
+}
+
+.az-kit__bottom-left_document{
+	display: none;
+	@include mobile(992){
+		display: block;
+	}
+}
+
+.az-kit__bottom-center_document{
+	@include desktop(992){
+		max-width: 340px;
+		margin: 0 auto;
+		float: none;
+	}
+}
