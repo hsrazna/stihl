@@ -341,6 +341,7 @@
 	<div class="az-basket-popup">
 		<div class="az-basket-popup__head">
 			<h3 class="az-basket-popup__title">Имя корзины</h3>
+			<a href="#" class="az-basket-popup__close az-close">закрыть</a>
 		</div>
 		<div class="az-basket-popup__filter">
 			<div class="az-basket-search">
