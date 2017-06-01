@@ -59,6 +59,21 @@ $(function() {
 
     }
 
+    if($("#slider-range-min1").length>0){
+
+	    $( "#slider-range-min1" ).slider({
+	      range: "min",
+	      value: 100,
+	      min: 1,
+	      max: 100,
+	      slide: function( event, ui ) {
+	        $( "#amount1" ).val( ui.value + "%");
+	      }
+	    });
+	    $( "#amount1" ).val( $( "#slider-range-min1" ).slider( "value" ) + "%" );
+
+    }
+
 	
 
 });

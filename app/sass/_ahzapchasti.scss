@@ -101,7 +101,7 @@
 	width: 91%;
 	max-width: none;
 	height: 32px;
-	background: #f37a1f;
+	background: #d1d0cf;
 	color: #fff;
 	font-family: "RobotoBold";
 	font-size: 12px;
@@ -119,7 +119,8 @@
 	&:hover, &:active, &:focus{
 		text-decoration: none;
 		color: #fff;
-		background: lighten(#f37a1f, 10%);
+		background: #f37a1f
+		// background: lighten(#f37a1f, 10%);
 	}
 }
 .ah-table{
@@ -436,7 +437,8 @@
 	    background: #fff !important;
 	}
 	.ui-widget-content{
-		background: #e9e9e9;
+		// background: #e9e9e9;
+		background: #fff;
 	}
 	.ui-slider .ui-slider-handle{
 		width: 12px;
@@ -444,6 +446,71 @@
 		background: #d1d0cf;
 		border-radius: 0;
 		cursor: pointer;
+		&:hover, &:active, &:focus{
+			background: #565f66
+		}
+	}
+}
+.ah-sliderform1{
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 100%;
+	max-width: 230px;
+	padding: 4px 6px;
+	background: #f5f3f2;
+	@include mobile(480){
+		padding: 8px 22px;
+		max-width: 376px;
+	}
+	label{
+		display: inline-block;
+		font-family: "RobotoRegular";
+		color: #565f66;
+		font-size: 12px;
+	}
+	input[type="text"]{
+		display: inline-block;
+		width: 100%;
+		max-width: 48px;
+		height: 26px;
+		border: 1px solid #d1d0cf;
+		background: #fff;
+		color: #182229;
+		font-family: "RobotoRegular";
+		font-size: 12px;
+		line-height: 26px;
+		text-align: center;
+		outline: none;
+        &::-webkit-input-placeholder{
+			color: #182229;
+        }
+		&::-moz-placeholder{
+			color: #182229;
+		}
+		&:-moz-placeholder{
+			color: #182229;
+		}
+		&:-ms-input-placeholder{
+			color: #182229;
+		}
+	}
+	.ui-widget-header{
+	    background: #fff !important;
+	}
+	.ui-widget-content{
+		// background: #e9e9e9;
+		background: #fff;
+	}
+	.ui-slider .ui-slider-handle{
+		width: 12px;
+		height: 18px;
+		background: #d1d0cf;
+		border-radius: 0;
+		cursor: pointer;
+		&:hover, &:active, &:focus{
+			background: #565f66
+		}
 	}
 }
 .ah-rangeslider{
