@@ -370,13 +370,71 @@
 			</div>
 			<div class="az-basket-filter">
 				<div class="az-basket-filter__name">
-					<p class="az-text">Поиск</p>
+					<p class="az-text">Фильтровать</p>
 				</div>
 				<div class="az-basket-filter__filter">
 					<label class="az-radio"><input type="radio" name="az-radio1" id="" checked><span>Выбрать все</span></label>
         			<label class="az-radio"><input type="radio" name="az-radio1" id=""><span>Отменить выбор</span></label>
 				</div>
 			</div>
+		</div>
+		<div class="az-basket-popup__list az-scroll">
+			<ul class="az-list2">
+				<li class="az-list2__item">
+					<label class="az-checkbox">
+						<input type="checkbox" name="" id="" class="js-button-on-off" checked><span></span>
+						<span class="az-list2__text">Chainsaw’s basket</span>
+					</label>
+				</li>
+				<li class="az-list2__item">
+					<label class="az-checkbox">
+						<input type="checkbox" name="" id="" class="js-button-on-off"><span></span>
+						<span class="az-list2__text">New basket 2017</span>
+					</label>
+				</li>
+				<li class="az-list2__item">
+					<label class="az-checkbox">
+						<input type="checkbox" name="" id="" class="js-button-on-off"><span></span>
+						<span class="az-list2__text">Chainsaw’s basket</span>
+					</label>
+				</li>
+				<li class="az-list2__item">
+					<label class="az-checkbox">
+						<input type="checkbox" name="" id="" class="js-button-on-off"><span></span>
+						<span class="az-list2__text">New basket 2017</span>
+					</label>
+				</li>
+				<li class="az-list2__item">
+					<label class="az-checkbox">
+						<input type="checkbox" name="" id="" class=""><span></span>
+						<span class="az-list2__text">Chainsaw’s basket</span>
+					</label>
+				</li>
+				<li class="az-list2__item">
+					<label class="az-checkbox">
+						<input type="checkbox" name="" id="" class=""><span></span>
+						<span class="az-list2__text">New basket 2017</span>
+					</label>
+				</li>
+				<li class="az-list2__item">
+					<label class="az-checkbox">
+						<input type="checkbox" name="" id="" class=""><span></span>
+						<span class="az-list2__text">Chainsaw’s basket</span>
+					</label>
+				</li>
+				<li class="az-list2__item">
+					<label class="az-checkbox">
+						<input type="checkbox" name="" id="" class=""><span></span>
+						<span class="az-list2__text">New basket 2017</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="az-basket-popup__buttons az-button-grid">
+			<div class="az-button-grid__item"><a href="#" class="az-button js-button-on-off-out">Применить</a></div>
+			<div class="az-button-grid__item"><a href="#" class="az-button az-button_grey js-button-on-off-out">Отменить</a></div>
+			<div class="az-button-grid__item"><a href="#" class="az-button az-button_grey js-button-on-off-out">Сохранить настройки</a></div>
+			<div class="az-button-grid__item"><a href="#" class="az-button az-button_grey js-button-on-off-out">Очистить фильтр</a></div>
 		</div>
 	</div>
 </div>

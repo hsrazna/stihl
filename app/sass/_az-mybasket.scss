@@ -199,6 +199,7 @@
 .az-basket-popup{
 	max-width: 440px;
 	background: #fff;
+	box-shadow: 0 4px 12px rgba(24, 34, 41, 0.4);
 }
 
 .az-basket-popup__head{
@@ -275,4 +276,79 @@
 
 .az-basket-popup__filter{
 	background: #f5f3f2;
+}
+
+.az-basket-filter{
+	font-size: 0;
+	padding: 5px 21px 15px;
+}
+
+.az-basket-filter__name{
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	max-width: 100px;
+}
+
+.az-basket-filter__filter{
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	max-width: 279px;
+	.az-radio{
+		margin: 0 14px 0 0;
+	}
+}
+
+.az-radio{
+	span{
+		font-weight: normal;
+	}
+}
+
+.az-basket-popup__list{
+	height: 190px;
+	border-top: 1px solid #f37a1f;
+	border-bottom: 1px solid #f37a1f;
+}
+
+.az-list2{
+	margin: 0;
+	padding: 0;
+}
+
+.az-list2__item{
+	display: block;
+	height: 38px;
+	line-height: 38px;
+	background: #fff;
+	padding-left: 21px;
+	&:nth-child(2n){
+		background: #f5f3f2;
+	}
+}
+
+.az-list2__text{
+	color: #f37a1f;
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: middle;
+	font-family: "RobotoRegular";
+	font-weight: normal;
+	margin-left: 45px;
+}
+
+.az-basket-popup__buttons{
+	padding: 16px 21px 8px;
+}
+
+.az-button-grid{
+	font-size: 0;
+}
+
+.az-button-grid__item{
+	display: inline-block;
+	vertical-align: top;
+	width: 180px;
+	margin: 0 16px 8px 0;
 }
