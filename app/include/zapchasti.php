@@ -142,7 +142,7 @@
 							        <div id="tab-3" class="ah-tabsbox__item ah-cardtab1-wrapp">
 							            333 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam magnam velit at aut eius, quod consequuntur possimus accusantium! Quo molestias nesciunt voluptates, blanditiis dolorem doloremque. Dolorum sequi asperiores soluta vero!
 							        </div>
-							        <div id="tab-4" class="ah-tabsbox__item ah-cardtab1-wrapp">
+							        <div id="tab-4" class="ah-tabsbox__item ah-cardtab1-wrapp ah-zaptab4-wrapp">
 							        	<div class="row">
 								        	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 									        	<span class="ah-cardleftbox-span ah-zapchastibox-span">MSA 160 C-BQ Cordless Chainsaw</span>
@@ -152,7 +152,7 @@
 												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padd1">
 													<div class="ah-zapchasti-wrapper">
 														<div class="row">
-															<div class="col-lg-5 col-lg-push-7 col-md-5 col-md-push-7 col-sm-6 col-xs-12">
+															<div class="col-lg-5 col-lg-push-7 col-md-6 col-md-push-6 col-sm-12 col-xs-12">
 																<form class="ah-searchform">
 																	<label>
 																		<input type="text" name="poisk" placeholder="Поиск по номеру">
@@ -160,7 +160,7 @@
 																	</label>
 																</form>
 															</div>
-															<div class="col-lg-7 col-lg-pull-5 col-md-7 col-md-pull-5 col-sm-6 col-xs-12">
+															<div class="col-lg-7 col-lg-pull-5 col-md-6 col-md-pull-6 col-sm-12 col-xs-12">
 																<div class="ah-selectwrapp">
 																	<span class="ah-selectspan">Выбрать часть</span>
 																	<div class="ah-selectbox">
