@@ -202,6 +202,25 @@
 	box-shadow: 0 4px 12px rgba(24, 34, 41, 0.4);
 }
 
+.az-table-filter__popup{
+	position: absolute;
+	z-index: 9;
+	top: 100%;	
+	right: 14px;
+	&::before{
+		content: "";
+		position: absolute;
+		top: -8px;
+		right: 0;
+		width: 0;
+		height: 0;
+		border-right: 8px solid #fff;
+		border-bottom: 8px solid #fff;
+		border-left: 8px solid transparent;
+		border-top: 8px solid transparent;
+	}
+}
+
 .az-basket-popup__head{
 	padding: 21px;
 	position: relative;
@@ -351,4 +370,9 @@
 	vertical-align: top;
 	width: 180px;
 	margin: 0 16px 8px 0;
+}
+
+.az-table__head-td{
+	// position: relative;
+
 }

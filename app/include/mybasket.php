@@ -152,7 +152,108 @@
 																<div class="az-table__head-td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-checkbox js-button-on-off"><span></span></label></div>
 																<div class="az-table__head-td az-basket__col2">Дата создания <a href="#" class="az-sort">сортировать</a><a href="#" class="az-table-filter">фильтр</a></div>
 																<div class="az-table__head-td az-basket__col3">Кем создано <a href="#" class="az-table-filter">фильтр</a></div>
-																<div class="az-table__head-td az-basket__col4">Имя корзины <a href="#" class="az-table-filter">фильтр</a></div>
+																<div class="az-table__head-td az-basket__col4">Имя корзины 
+																	<a href="#" class="az-table-filter">фильтр</a>
+																	<div class="az-basket-popup az-table-filter__popup">
+																		<div class="az-basket-popup__head">
+																			<h3 class="az-basket-popup__title">Имя корзины</h3>
+																			<a href="#" class="az-basket-popup__close az-close">закрыть</a>
+																		</div>
+																		<div class="az-basket-popup__filter">
+																			<div class="az-basket-search">
+																				<div class="az-basket-search__name">
+																					<p class="az-text">Поиск</p>
+																				</div>
+																				<div class="az-basket-search__select">
+																					<div class="ah-selectbox">
+																						<select class="ah-select1">
+																							<option>Содержащийся</option>
+																							<option>Содержащийся2</option>
+																							<option>50</option>
+																						</select>
+																					</div>
+																				</div>
+																				<div class="az-basket-search__search">
+																					<div class="az-search">
+																	        			<div class="az-search__cell">
+																		        			<input type="text" class="az-search__input">
+																	        			</div>
+																	        			<div class="az-search__cell2">
+																		        			<input type="submit" value="Искать" class="az-search__submit">
+																	        			</div>
+																        			</div>
+																				</div>
+																			</div>
+																			<div class="az-basket-filter">
+																				<div class="az-basket-filter__name">
+																					<p class="az-text">Фильтровать</p>
+																				</div>
+																				<div class="az-basket-filter__filter">
+																					<label class="az-radio"><input type="radio" name="az-radio1" id="" checked><span>Выбрать все</span></label>
+																        			<label class="az-radio"><input type="radio" name="az-radio1" id=""><span>Отменить выбор</span></label>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="az-basket-popup__list az-scroll">
+																			<ul class="az-list2">
+																				<li class="az-list2__item">
+																					<label class="az-checkbox">
+																						<input type="checkbox" name="" id="" class="js-button-on-off" checked><span></span>
+																						<span class="az-list2__text">Chainsaw’s basket</span>
+																					</label>
+																				</li>
+																				<li class="az-list2__item">
+																					<label class="az-checkbox">
+																						<input type="checkbox" name="" id="" class="js-button-on-off"><span></span>
+																						<span class="az-list2__text">New basket 2017</span>
+																					</label>
+																				</li>
+																				<li class="az-list2__item">
+																					<label class="az-checkbox">
+																						<input type="checkbox" name="" id="" class="js-button-on-off"><span></span>
+																						<span class="az-list2__text">Chainsaw’s basket</span>
+																					</label>
+																				</li>
+																				<li class="az-list2__item">
+																					<label class="az-checkbox">
+																						<input type="checkbox" name="" id="" class="js-button-on-off"><span></span>
+																						<span class="az-list2__text">New basket 2017</span>
+																					</label>
+																				</li>
+																				<li class="az-list2__item">
+																					<label class="az-checkbox">
+																						<input type="checkbox" name="" id="" class=""><span></span>
+																						<span class="az-list2__text">Chainsaw’s basket</span>
+																					</label>
+																				</li>
+																				<li class="az-list2__item">
+																					<label class="az-checkbox">
+																						<input type="checkbox" name="" id="" class=""><span></span>
+																						<span class="az-list2__text">New basket 2017</span>
+																					</label>
+																				</li>
+																				<li class="az-list2__item">
+																					<label class="az-checkbox">
+																						<input type="checkbox" name="" id="" class=""><span></span>
+																						<span class="az-list2__text">Chainsaw’s basket</span>
+																					</label>
+																				</li>
+																				<li class="az-list2__item">
+																					<label class="az-checkbox">
+																						<input type="checkbox" name="" id="" class=""><span></span>
+																						<span class="az-list2__text">New basket 2017</span>
+																					</label>
+																				</li>
+																			</ul>
+																		</div>
+																		<div class="az-basket-popup__buttons az-button-grid">
+																			<div class="az-button-grid__item"><a href="#" class="az-button js-button-on-off-out">Применить</a></div>
+																			<div class="az-button-grid__item"><a href="#" class="az-button az-button_grey js-button-on-off-out">Отменить</a></div>
+																			<div class="az-button-grid__item"><a href="#" class="az-button az-button_grey js-button-on-off-out">Сохранить настройки</a></div>
+																			<div class="az-button-grid__item"><a href="#" class="az-button az-button_grey js-button-on-off-out">Очистить фильтр</a></div>
+																		</div>
+																	</div>
+																</div>
 																<div class="az-table__head-td az-basket__col5">Единица <a href="#" class="az-table-filter">фильтр</a></div>
 																<div class="az-table__head-td az-basket__col6">Цена <a href="#" class="az-table-filter">фильтр</a></div>
 																<div class="az-table__head-td az-basket__col7">Скидка <a href="#" class="az-table-filter">фильтр</a></div>
@@ -338,103 +439,5 @@
 </section>
 
 <div class="container">
-	<div class="az-basket-popup">
-		<div class="az-basket-popup__head">
-			<h3 class="az-basket-popup__title">Имя корзины</h3>
-			<a href="#" class="az-basket-popup__close az-close">закрыть</a>
-		</div>
-		<div class="az-basket-popup__filter">
-			<div class="az-basket-search">
-				<div class="az-basket-search__name">
-					<p class="az-text">Поиск</p>
-				</div>
-				<div class="az-basket-search__select">
-					<div class="ah-selectbox">
-						<select class="ah-select1">
-							<option>Содержащийся</option>
-							<option>Содержащийся2</option>
-							<option>50</option>
-						</select>
-					</div>
-				</div>
-				<div class="az-basket-search__search">
-					<div class="az-search">
-	        			<div class="az-search__cell">
-		        			<input type="text" class="az-search__input">
-	        			</div>
-	        			<div class="az-search__cell2">
-		        			<input type="submit" value="Искать" class="az-search__submit">
-	        			</div>
-        			</div>
-				</div>
-			</div>
-			<div class="az-basket-filter">
-				<div class="az-basket-filter__name">
-					<p class="az-text">Фильтровать</p>
-				</div>
-				<div class="az-basket-filter__filter">
-					<label class="az-radio"><input type="radio" name="az-radio1" id="" checked><span>Выбрать все</span></label>
-        			<label class="az-radio"><input type="radio" name="az-radio1" id=""><span>Отменить выбор</span></label>
-				</div>
-			</div>
-		</div>
-		<div class="az-basket-popup__list az-scroll">
-			<ul class="az-list2">
-				<li class="az-list2__item">
-					<label class="az-checkbox">
-						<input type="checkbox" name="" id="" class="js-button-on-off" checked><span></span>
-						<span class="az-list2__text">Chainsaw’s basket</span>
-					</label>
-				</li>
-				<li class="az-list2__item">
-					<label class="az-checkbox">
-						<input type="checkbox" name="" id="" class="js-button-on-off"><span></span>
-						<span class="az-list2__text">New basket 2017</span>
-					</label>
-				</li>
-				<li class="az-list2__item">
-					<label class="az-checkbox">
-						<input type="checkbox" name="" id="" class="js-button-on-off"><span></span>
-						<span class="az-list2__text">Chainsaw’s basket</span>
-					</label>
-				</li>
-				<li class="az-list2__item">
-					<label class="az-checkbox">
-						<input type="checkbox" name="" id="" class="js-button-on-off"><span></span>
-						<span class="az-list2__text">New basket 2017</span>
-					</label>
-				</li>
-				<li class="az-list2__item">
-					<label class="az-checkbox">
-						<input type="checkbox" name="" id="" class=""><span></span>
-						<span class="az-list2__text">Chainsaw’s basket</span>
-					</label>
-				</li>
-				<li class="az-list2__item">
-					<label class="az-checkbox">
-						<input type="checkbox" name="" id="" class=""><span></span>
-						<span class="az-list2__text">New basket 2017</span>
-					</label>
-				</li>
-				<li class="az-list2__item">
-					<label class="az-checkbox">
-						<input type="checkbox" name="" id="" class=""><span></span>
-						<span class="az-list2__text">Chainsaw’s basket</span>
-					</label>
-				</li>
-				<li class="az-list2__item">
-					<label class="az-checkbox">
-						<input type="checkbox" name="" id="" class=""><span></span>
-						<span class="az-list2__text">New basket 2017</span>
-					</label>
-				</li>
-			</ul>
-		</div>
-		<div class="az-basket-popup__buttons az-button-grid">
-			<div class="az-button-grid__item"><a href="#" class="az-button js-button-on-off-out">Применить</a></div>
-			<div class="az-button-grid__item"><a href="#" class="az-button az-button_grey js-button-on-off-out">Отменить</a></div>
-			<div class="az-button-grid__item"><a href="#" class="az-button az-button_grey js-button-on-off-out">Сохранить настройки</a></div>
-			<div class="az-button-grid__item"><a href="#" class="az-button az-button_grey js-button-on-off-out">Очистить фильтр</a></div>
-		</div>
-	</div>
+	
 </div>
