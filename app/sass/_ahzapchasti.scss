@@ -661,8 +661,86 @@
 	}
 }
 
+/* ******************************** */
+.ah-select2{
+	width: 100% !important;
+	.btn-default{
+		background: #fff;
+		// border-color: #d1d0cf;
+		border: 1px solid #d1d0cf;
+		outline: none !important;
+		&:hover, .open>.dropdown-toggle.btn-default{
+			background-color: #fff !important;
+			// border-color: transparent !important;
+			outline: none !important;
+		}
+		&:focus{
+			outline: none !important;
+		}
+	}
+	&.open>.dropdown-toggle.btn-default {
+		color: #182229;
+	    background-color: #fff !important;
+		border: 1px solid #d1d0cf;
+		outline: none !important;
+	}
+	.btn{
+		color: #182229;
+		font-size: 14px;
+		font-family: "RobotoRegular";
+		height: 36px;
+	    border-radius: 0 !important;
+	    padding: 0px 0px 0px 20px !important;
+    	@include mobile(768){
+			padding: 0px 8px;
+		}
+		@include mobile(992){
+			padding: 0px 8px;
+		}
+		.caret{
+			width: 19px;
+			height: 17px;
+			background: url(../img/ah-sel.png) center center no-repeat #fff;
+			border: none;
+			@include mobile(480){
+				width: 11px;
+				height: 7px;
+				top: 50%;
+				right: 12px;
+			}
+		}
+	}
+	.dropdown-menu{
+		background-color: #fff;
+		max-width: 148px;
+		@include mobile(480){
+			max-width: none;
+		}
+	}
+	.dropdown-menu>li>a{
+		color: #182229;
+		font-size: 10px;
+		line-height: 34px;
+		padding: 3px 5px;
+		@include mobile(480){
+			font-size: 14px;
+			padding: 0px 20px;
+		}
+		&:hover{
+			background-color: #e2fee5;
+		}
+	}
+}
+.ah-select2.bootstrap-select.btn-group .dropdown-toggle .caret{
+	top: 32% !important;
+	right: 7px !important;
+	@include mobile(480){
+		top: 50% !important;
+		right: 12px !important;
+	}
+}
 
-
+/* ******************************** */
 
 
 

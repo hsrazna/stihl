@@ -41,6 +41,13 @@ $(function() {
 		  size: 4
 		});
 
+	}
+
+	if($('.ah-select2').length>0){
+	 
+	    $('.ah-select2').selectpicker({
+		  size: 4
+		});
 
 	}
 
