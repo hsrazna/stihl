@@ -128,16 +128,27 @@
 															</div>
 														</div>
 														<div class="ah-newbasket-linkswrap">
-															<ul class="ah-newbasket-linkslist">
+															<div class="az-basket-button">
+																<div class="az-basket-button__1">
+																	<a href="#" class="az-button az-button_grey">Оформить заказ</a>
+																</div>
+																<div class="az-basket-button__2">
+																	<a href="#" class="az-button az-button_grey">Сохранить</a>
+																</div>
+																<div class="az-basket-button__3">
+																	<a href="#" class="az-button az-button_grey">Сохранить</a>
+																</div>
+															</div>
+															<!-- <ul class="ah-newbasket-linkslist">
 																<li class="ah-basket-link1">
 																	<a href="#" style="background: #f37a1f; color: #fff;">Оформить заказ</a></li>
 																<li class="ah-basket-link2">
 																	<a href="#">Сохранить</a>
 																</li>
 																<li class="ah-basket-link3">
-																	<a href="#">Отменить</a>
+																	<a href="#">Сохранить</a>
 																</li>
-															</ul>
+															</ul> -->
 														</div>
 													</div>
 												</div>
