@@ -194,7 +194,7 @@
 								            	</div>
 								            </div>
 								            <form action="/">
-									            <div class="az-kit__table az-table">
+									            <div class="az-kit__table az-table az-table_goods">
 													<div class="az-table__top">
 														<div class="az-table__head">
 															<div class="az-table__row">
@@ -255,13 +255,13 @@
 									            	<div class="az-kit__bottom-left">
 									            		<div class="az-basket-button">
 									            			<div class="az-basket-button__1">
-											            		<a href="#" class="az-button -out">Редактировать</a>
+											            		<a href="#" class="az-button">Добавить в корзину</a>
 										            		</div>
 									            			<div class="az-basket-button__2">
-										            			<a href="#" class="az-button -out">Удалить</a>
+										            			<a href="#" class="az-button az-button_grey">Сохранить</a>
 										            		</div>
 									            			<div class="az-basket-button__3">
-										            			<a href="#" class="az-button az-button_grey">Создать новую</a>
+										            			<a href="#" class="az-button az-button_grey">Отменить</a>
 										            		</div>
 									            		</div>
 									            	</div>

@@ -7,56 +7,71 @@
 .az-goods__col2{
 	width: 20.24%;
 	padding-left: 10px;
+	@include mobile(1200){
+		width: 15.24%;
+	}
 }
 
 .az-goods__col3{
 	width: calc(26.48% - 16px);
 	padding-left: 10px;
-	@include mobile(1600){
+	@include mobile(1200){
 		width: calc(21.48% - 16px);
 	}
 }
 
 .az-goods__col4{
-	width: calc(13.32% - 8px);
+	width: calc(16.32% - 8px);
 	padding-left: 10px;
-	@include mobile(1600){
-		width: calc(8.32% - 8px);
+	@include mobile(1200){
+		width: calc(10.32% - 8px);
 	}
 }
 
 .az-goods__col5{
 	width: calc(13.32% - 8px);
 	padding-left: 10px;
-	@include mobile(1600){
-		width: calc(8.32% - 8px);
+	@include mobile(1200){
+		width: calc(10.32% - 8px);
 	}
 }
 
 .az-goods__col6{
-	width: calc(13.32% - 8px);
+	width: calc(23.64% - 16px);
 	padding-left: 10px;
-	@include mobile(1600){
-		width: calc(8.32% - 8px);
+	@include mobile(1200){
+		width: calc(9.32% - 8px);
+	}
+	@include desktop(1200){
+		border-right: 0;
 	}
 }
 
 .az-goods__col7{
-	width: calc(13.32% - 8px);
-	padding-left: 10px;
-	@include mobile(1600){
+	display: none;
+	@include mobile(1200){
+		display: inline-block;
 		width: calc(8.32% - 8px);
 	}
-	@include desktop(1600){
-		border-right: 0;
+	@include desktop(1200){
+		// border-right: 0;
 	}
 }
 
 .az-goods__col8{
 	display: none;
-	@include mobile(1600){
+	@include mobile(1200){
 		display: inline-block;
-		width: 25%;
+		width: 12.5%;
+		padding-left: 10px;
+	}
+}
+
+.az-goods__col9{
+	display: none;
+	@include mobile(1200){
+		display: inline-block;
+		width: 12.5%;
 		padding-left: 10px;
 	}
 }
@@ -106,4 +121,10 @@
 
 .az-search__submit_black{
 	background: #565f66 url('../img/ah-serchform-white.png') center no-repeat;
+}
+
+.az-table_goods{
+	.az-table__row{
+		min-width: 800px;
+	}
 }
