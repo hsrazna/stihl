@@ -157,6 +157,11 @@
 	height: 26px;
 	border: 1px solid #d1d0cf;
 	padding: 0 6px;
+	background: #fff;
+	&[disabled]{
+		background: #fff;
+		color: #81898f;
+	}
 }
 
 .az-scroll-temp{

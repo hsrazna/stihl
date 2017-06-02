@@ -27,7 +27,7 @@
 							    </ul>
 							    <div class="ah-tabs__tabsbox ah-tabsbox ah-cardtabsbox">
 							        <div id="tab-1" class="ah-tabsbox__item">
-							        	<div class="az-kit -wrap">
+							        	<div class="az-kit">
 							        		<div class="clearfix">
 								        		<div class="az-kit__head">
 										            <h2 class="az-kit__title">Мои корзины</h2>
@@ -134,7 +134,7 @@
 							            </div>
 							        </div>
 							        <div id="tab-2" class="ah-tabsbox__item">
-							        	<div class="az-kit -wrap">
+							        	<div class="az-kit">
 							        		<div class="clearfix">
 								        		<div class="az-kit__head">
 										            <h2 class="az-kit__title">Корзины в обработке</h2>
@@ -427,7 +427,7 @@
 							            </div>
 							        </div>
 							        <div id="tab-3" class="ah-tabsbox__item">
-							            <div class="az-kit -wrap">
+							            <div class="az-kit">
 							        		<div class="clearfix">
 								        		<div class="az-kit__head">
 										            <h2 class="az-kit__title">Корзины в обработке</h2>
@@ -532,7 +532,3 @@
 		</div>
 	</div>
 </section>
-
-<div class="container">
-	
-</div>

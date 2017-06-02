@@ -140,6 +140,35 @@ $(function() {
 		});
 	}
 
+	$(".js-switch-on-off input[type=checkbox]").each(function(){
+		if(!$(this).is(':checked')){
+			$(this).closest(".js-switch-on-off").siblings(".js-switch-on-off-out").find("input").attr("disabled", "disabled");
+		} else {
+			$(this).closest(".js-switch-on-off").siblings(".js-switch-on-off-out").find("input").removeAttr("disabled");
+		}
+	});
+
+	$(".js-switch-on-off input[type=checkbox]").change(function(){
+		if(!$(this).is(':checked')){
+			$(this).closest(".js-switch-on-off").siblings(".js-switch-on-off-out").find("input").attr("disabled", "disabled");
+		} else {
+			$(this).closest(".js-switch-on-off").siblings(".js-switch-on-off-out").find("input").removeAttr("disabled");
+		}
+	});
+
+	$(".az-search__input").keyup(function(){
+		if($(this).val() == ""){
+			$(this).siblings(".az-search__clear").removeClass("az-search__clear_show");
+		} else {
+			$(this).siblings(".az-search__clear").addClass("az-search__clear_show");
+		}
+	});
+
+	$(".az-search__clear").click(function(){
+		$(this).siblings(".az-search__input").val("");
+		$(this).removeClass("az-search__clear_show");
+		return false;
+	});
 
 });
 
