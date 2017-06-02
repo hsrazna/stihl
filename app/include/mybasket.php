@@ -27,7 +27,7 @@
 							    </ul>
 							    <div class="ah-tabs__tabsbox ah-tabsbox ah-cardtabsbox">
 							        <div id="tab-1" class="ah-tabsbox__item">
-							        	<div class="az-kit js-button-on-off-wrap">
+							        	<div class="az-kit -wrap">
 							        		<div class="clearfix">
 								        		<div class="az-kit__head">
 										            <h2 class="az-kit__title">Мои корзины</h2>
@@ -42,7 +42,7 @@
 													<div class="az-table__top">
 														<div class="az-table__head">
 															<div class="az-table__row">
-																<div class="az-table__head-td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-checkbox js-button-on-off"><span></span></label></div>
+																<div class="az-table__head-td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-checkbox "><span></span></label></div>
 																<div class="az-table__head-td az-basket__col2">Дата создания <a href="#" class="az-sort">сортировать</a><a href="#" class="az-table-filter">фильтр</a></div>
 																<div class="az-table__head-td az-basket__col3">Кем создано <a href="#" class="az-table-filter">фильтр</a></div>
 																<div class="az-table__head-td az-basket__col4">Имя корзины <a href="#" class="az-table-filter">фильтр</a></div>
@@ -56,7 +56,7 @@
 													<div class="az-table__bottom">
 														<div class="az-table__body">
 															<div class="az-table__row">
-																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
+																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out "><span></span></label></div>
 																<div class="az-table__td az-basket__col2">22.03.2017</div>
 																<div class="az-table__td az-basket__col3">Scabbard 30 - 35 cm 3005 mini</div>
 																<div class="az-table__td az-basket__col4">New basket</div>
@@ -66,7 +66,7 @@
 																<div class="az-table__td az-basket__col8">4280.50</div>
 															</div>
 															<div class="az-table__row">
-																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
+																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out "><span></span></label></div>
 																<div class="az-table__td az-basket__col2">22.03.2017</div>
 																<div class="az-table__td az-basket__col3">Scabbard 30 - 35 cm 3005 mini</div>
 																<div class="az-table__td az-basket__col4">New basket 2</div>
@@ -76,7 +76,7 @@
 																<div class="az-table__td az-basket__col8">4280.50</div>
 															</div>
 															<div class="az-table__row">
-																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
+																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out "><span></span></label></div>
 																<div class="az-table__td az-basket__col2">22.03.2017</div>
 																<div class="az-table__td az-basket__col3">Scabbard 30 - 35 cm 3005 mini</div>
 																<div class="az-table__td az-basket__col4">New basket 3</div>
@@ -106,10 +106,10 @@
 									            	<div class="az-kit__bottom-left">
 									            		<div class="az-basket-button">
 									            			<div class="az-basket-button__1">
-											            		<a href="#" class="az-button js-button-on-off-out">Редактировать</a>
+											            		<a href="#" class="az-button -out">Редактировать</a>
 										            		</div>
 									            			<div class="az-basket-button__2">
-										            			<a href="#" class="az-button js-button-on-off-out">Удалить</a>
+										            			<a href="#" class="az-button -out">Удалить</a>
 										            		</div>
 									            			<div class="az-basket-button__3">
 										            			<a href="#" class="az-button az-button_grey">Создать новую</a>
@@ -134,7 +134,7 @@
 							            </div>
 							        </div>
 							        <div id="tab-2" class="ah-tabsbox__item">
-							        	<div class="az-kit js-button-on-off-wrap">
+							        	<div class="az-kit -wrap">
 							        		<div class="clearfix">
 								        		<div class="az-kit__head">
 										            <h2 class="az-kit__title">Корзины в обработке</h2>
@@ -149,12 +149,107 @@
 													<div class="az-table__top">
 														<div class="az-table__head">
 															<div class="az-table__row">
-																<div class="az-table__head-td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-checkbox js-button-on-off"><span></span></label></div>
-																<div class="az-table__head-td az-basket__col2">Дата создания <a href="#" class="az-sort">сортировать</a><a href="#" class="az-table-filter">фильтр</a></div>
+																<div class="az-table__head-td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-checkbox"><span></span></label></div>
+																<div class="az-table__head-td az-basket__col2">Дата создания 
+																	<a href="#" class="az-sort">сортировать</a>
+																	<a href="#" class="az-table-filter">фильтр</a>
+																	<div class="az-basket-popup az-table-filter__popup az-table-filter__popup_left">
+																		<div class="az-basket-popup__head">
+																			<h3 class="az-basket-popup__title">Дата создания</h3>
+																			<a href="#" class="az-basket-popup__close az-close">закрыть</a>
+																		</div>
+																		<div class="az-basket-popup__filter">
+																			<div class="az-basket-search">
+																				<div class="az-basket-search__name">
+																					<p class="az-text">Поиск</p>
+																				</div>
+																				<div class="az-basket-search__select">
+																					<div class="ah-selectbox">
+																						<select class="ah-select1">
+																							<option>Содержащийся</option>
+																							<option>Содержащийся2</option>
+																							<option>Содержащийся3</option>
+																						</select>
+																					</div>
+																				</div>
+																				<div class="az-basket-search__search">
+																        			<input type="text" value="дд.мм.гггг" class="datepicker az-date" data-date-format="dd.mm.yyyy">
+																				</div>
+																			</div>
+																			<div class="az-basket-filter">
+																				<div class="az-basket-filter__name">
+																					<p class="az-text">Фильтровать</p>
+																				</div>
+																				<div class="az-basket-filter__filter">
+																					<label class="az-radio"><input type="radio" name="az-radio1" id="" checked><span>Выбрать все</span></label>
+																        			<label class="az-radio"><input type="radio" name="az-radio1" id=""><span>Отменить выбор</span></label>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="az-basket-popup__list az-scroll">
+																			<ul class="az-list2">
+																				<li class="az-list2__item">
+																					<label class="az-checkbox">
+																						<input type="checkbox" name="" id="" class="" checked><span></span>
+																						<span class="az-list2__text">Chainsaw’s basket</span>
+																					</label>
+																				</li>
+																				<li class="az-list2__item">
+																					<label class="az-checkbox">
+																						<input type="checkbox" name="" id="" class=""><span></span>
+																						<span class="az-list2__text">New basket 2017</span>
+																					</label>
+																				</li>
+																				<li class="az-list2__item">
+																					<label class="az-checkbox">
+																						<input type="checkbox" name="" id="" class=""><span></span>
+																						<span class="az-list2__text">Chainsaw’s basket</span>
+																					</label>
+																				</li>
+																				<li class="az-list2__item">
+																					<label class="az-checkbox">
+																						<input type="checkbox" name="" id="" class=""><span></span>
+																						<span class="az-list2__text">New basket 2017</span>
+																					</label>
+																				</li>
+																				<li class="az-list2__item">
+																					<label class="az-checkbox">
+																						<input type="checkbox" name="" id="" class=""><span></span>
+																						<span class="az-list2__text">Chainsaw’s basket</span>
+																					</label>
+																				</li>
+																				<li class="az-list2__item">
+																					<label class="az-checkbox">
+																						<input type="checkbox" name="" id="" class=""><span></span>
+																						<span class="az-list2__text">New basket 2017</span>
+																					</label>
+																				</li>
+																				<li class="az-list2__item">
+																					<label class="az-checkbox">
+																						<input type="checkbox" name="" id="" class=""><span></span>
+																						<span class="az-list2__text">Chainsaw’s basket</span>
+																					</label>
+																				</li>
+																				<li class="az-list2__item">
+																					<label class="az-checkbox">
+																						<input type="checkbox" name="" id="" class=""><span></span>
+																						<span class="az-list2__text">New basket 2017</span>
+																					</label>
+																				</li>
+																			</ul>
+																		</div>
+																		<div class="az-basket-popup__buttons az-button-grid">
+																			<div class="az-button-grid__item"><a href="#" class="az-button -out">Применить</a></div>
+																			<div class="az-button-grid__item"><a href="#" class="az-button az-button_grey -out">Отменить</a></div>
+																			<div class="az-button-grid__item"><a href="#" class="az-button az-button_grey -out">Сохранить настройки</a></div>
+																			<div class="az-button-grid__item"><a href="#" class="az-button az-button_grey -out">Очистить фильтр</a></div>
+																		</div>
+																	</div>
+																</div>
 																<div class="az-table__head-td az-basket__col3">Кем создано <a href="#" class="az-table-filter">фильтр</a></div>
 																<div class="az-table__head-td az-basket__col4">Имя корзины 
 																	<a href="#" class="az-table-filter">фильтр</a>
-																	<!-- <div class="az-basket-popup az-table-filter__popup js-button-on-off-wrap">
+																	<div class="az-basket-popup az-table-filter__popup">
 																		<div class="az-basket-popup__head">
 																			<h3 class="az-basket-popup__title">Имя корзины</h3>
 																			<a href="#" class="az-basket-popup__close az-close">закрыть</a>
@@ -198,25 +293,25 @@
 																			<ul class="az-list2">
 																				<li class="az-list2__item">
 																					<label class="az-checkbox">
-																						<input type="checkbox" name="" id="" class="js-button-on-off" checked><span></span>
+																						<input type="checkbox" name="" id="" class="" checked><span></span>
 																						<span class="az-list2__text">Chainsaw’s basket</span>
 																					</label>
 																				</li>
 																				<li class="az-list2__item">
 																					<label class="az-checkbox">
-																						<input type="checkbox" name="" id="" class="js-button-on-off"><span></span>
+																						<input type="checkbox" name="" id="" class=""><span></span>
 																						<span class="az-list2__text">New basket 2017</span>
 																					</label>
 																				</li>
 																				<li class="az-list2__item">
 																					<label class="az-checkbox">
-																						<input type="checkbox" name="" id="" class="js-button-on-off"><span></span>
+																						<input type="checkbox" name="" id="" class=""><span></span>
 																						<span class="az-list2__text">Chainsaw’s basket</span>
 																					</label>
 																				</li>
 																				<li class="az-list2__item">
 																					<label class="az-checkbox">
-																						<input type="checkbox" name="" id="" class="js-button-on-off"><span></span>
+																						<input type="checkbox" name="" id="" class=""><span></span>
 																						<span class="az-list2__text">New basket 2017</span>
 																					</label>
 																				</li>
@@ -247,12 +342,12 @@
 																			</ul>
 																		</div>
 																		<div class="az-basket-popup__buttons az-button-grid">
-																			<div class="az-button-grid__item"><a href="#" class="az-button js-button-on-off-out">Применить</a></div>
-																			<div class="az-button-grid__item"><a href="#" class="az-button az-button_grey js-button-on-off-out">Отменить</a></div>
-																			<div class="az-button-grid__item"><a href="#" class="az-button az-button_grey js-button-on-off-out">Сохранить настройки</a></div>
-																			<div class="az-button-grid__item"><a href="#" class="az-button az-button_grey js-button-on-off-out">Очистить фильтр</a></div>
+																			<div class="az-button-grid__item"><a href="#" class="az-button -out">Применить</a></div>
+																			<div class="az-button-grid__item"><a href="#" class="az-button az-button_grey -out">Отменить</a></div>
+																			<div class="az-button-grid__item"><a href="#" class="az-button az-button_grey -out">Сохранить настройки</a></div>
+																			<div class="az-button-grid__item"><a href="#" class="az-button az-button_grey -out">Очистить фильтр</a></div>
 																		</div>
-																	</div> -->
+																	</div>
 																</div>
 																<div class="az-table__head-td az-basket__col5">Единица <a href="#" class="az-table-filter">фильтр</a></div>
 																<div class="az-table__head-td az-basket__col6">Цена <a href="#" class="az-table-filter">фильтр</a></div>
@@ -264,7 +359,7 @@
 													<div class="az-table__bottom">
 														<div class="az-table__body">
 															<div class="az-table__row">
-																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
+																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out "><span></span></label></div>
 																<div class="az-table__td az-basket__col2">22.03.2017</div>
 																<div class="az-table__td az-basket__col3">Scabbard 30 - 35 cm 3005 mini</div>
 																<div class="az-table__td az-basket__col4">New basket</div>
@@ -274,7 +369,7 @@
 																<div class="az-table__td az-basket__col8">4280.50</div>
 															</div>
 															<div class="az-table__row">
-																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
+																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out "><span></span></label></div>
 																<div class="az-table__td az-basket__col2">22.03.2017</div>
 																<div class="az-table__td az-basket__col3">Scabbard 30 - 35 cm 3005 mini</div>
 																<div class="az-table__td az-basket__col4">New basket 2</div>
@@ -284,7 +379,7 @@
 																<div class="az-table__td az-basket__col8">4280.50</div>
 															</div>
 															<div class="az-table__row">
-																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
+																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out "><span></span></label></div>
 																<div class="az-table__td az-basket__col2">22.03.2017</div>
 																<div class="az-table__td az-basket__col3">Scabbard 30 - 35 cm 3005 mini</div>
 																<div class="az-table__td az-basket__col4">New basket 3</div>
@@ -312,7 +407,7 @@
 														</div>
 									            	</div>
 									            	<div class="az-kit__bottom-left">
-									            		<a href="#" class="az-button js-button-on-off-out">Редактировать</a>
+									            		<a href="#" class="az-button -out">Редактировать</a>
 									            	</div>
 									            	<div class="az-kit__bottom-center">
 									            		<div class="az-pagination">
@@ -332,7 +427,7 @@
 							            </div>
 							        </div>
 							        <div id="tab-3" class="ah-tabsbox__item">
-							            <div class="az-kit js-button-on-off-wrap">
+							            <div class="az-kit -wrap">
 							        		<div class="clearfix">
 								        		<div class="az-kit__head">
 										            <h2 class="az-kit__title">Корзины в обработке</h2>
@@ -347,7 +442,7 @@
 													<div class="az-table__top">
 														<div class="az-table__head">
 															<div class="az-table__row">
-																<div class="az-table__head-td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-checkbox js-button-on-off"><span></span></label></div>
+																<div class="az-table__head-td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-checkbox"><span></span></label></div>
 																<div class="az-table__head-td az-basket__col2">Дата создания <a href="#" class="az-sort">сортировать</a><a href="#" class="az-table-filter">фильтр</a></div>
 																<div class="az-table__head-td az-basket__col3">Кем создано <a href="#" class="az-table-filter">фильтр</a></div>
 																<div class="az-table__head-td az-basket__col4">Имя корзины <a href="#" class="az-table-filter">фильтр</a></div>
@@ -361,7 +456,7 @@
 													<div class="az-table__bottom">
 														<div class="az-table__body">
 															<div class="az-table__row">
-																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
+																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out"><span></span></label></div>
 																<div class="az-table__td az-basket__col2">22.03.2017</div>
 																<div class="az-table__td az-basket__col3">Scabbard 30 - 35 cm 3005 mini</div>
 																<div class="az-table__td az-basket__col4">New basket</div>
@@ -371,7 +466,7 @@
 																<div class="az-table__td az-basket__col8">4280.50</div>
 															</div>
 															<div class="az-table__row">
-																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
+																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out"><span></span></label></div>
 																<div class="az-table__td az-basket__col2">22.03.2017</div>
 																<div class="az-table__td az-basket__col3">Scabbard 30 - 35 cm 3005 mini</div>
 																<div class="az-table__td az-basket__col4">New basket 2</div>
@@ -381,7 +476,7 @@
 																<div class="az-table__td az-basket__col8">4280.50</div>
 															</div>
 															<div class="az-table__row">
-																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out js-button-on-off"><span></span></label></div>
+																<div class="az-table__td az-table__td_center az-basket__col1"><label class="az-checkbox"><input type="checkbox" name="" id="" class="js-check-out"><span></span></label></div>
 																<div class="az-table__td az-basket__col2">22.03.2017</div>
 																<div class="az-table__td az-basket__col3">Scabbard 30 - 35 cm 3005 mini</div>
 																<div class="az-table__td az-basket__col4">New basket 3</div>
@@ -409,7 +504,7 @@
 														</div>
 									            	</div>
 									            	<div class="az-kit__bottom-left az-kit__bottom-left_addnew">
-									            		<a href="#" class="az-button js-button-on-off-out">Редактировать</a>
+									            		<a href="#" class="az-button">Редактировать</a>
 									            	</div>
 									            	<div class="az-kit__bottom-center">
 									            		<div class="az-pagination">

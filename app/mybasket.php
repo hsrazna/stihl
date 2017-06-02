@@ -24,6 +24,7 @@
 	<link rel="stylesheet" href="libs/jscrollpane/jquery.jscrollpane.css">
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="libs/bootstrap-select-1.12.2/dist/css/bootstrap-select.min.css">
+	<link rel="stylesheet" href="libs/bootstrap-datepicker/dist/css/bootstrap-datepicker.css">
 	<link rel="stylesheet" href="css/main.min.css">
 
 
@@ -59,6 +60,7 @@
 	<script src="libs/bootstrap/bootstrap.min.js"></script>
 	<script src="libs/bootstrap-select-1.12.2/dist/js/bootstrap-select.min.js"></script>
 	<script src="libs/bootstrap-select-1.12.2/dist/js/i18n/defaults-ru_RU.min.js"></script>
+	<script src="libs/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
 	<!-- <script src="libs/owl.carousel/owl.carousel.min.js"></script> -->
 	<script src="js/scripts.min.js"></script>
 

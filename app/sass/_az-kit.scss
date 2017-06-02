@@ -181,10 +181,20 @@
 	.az-sort{
 		right: 8px;
 	}
+	.az-table__head-td:hover{
+		background: #f37a1f;
+	}
+	.az-table-filter:hover{
+		background: transparent url(../img/table-filter-white.png) center no-repeat;
+	}
 }
 
 .az-sort + .az-table-filter{
 	right: 28px;
+}
+
+.az-kit__bottom{
+	position: relative;
 }
 
 .az-kit__bottom-right{

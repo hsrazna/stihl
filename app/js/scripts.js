@@ -41,6 +41,13 @@ $(function() {
 		  size: 4
 		});
 
+	}
+
+	if($('.ah-select2').length>0){
+	 
+	    $('.ah-select2').selectpicker({
+		  size: 4
+		});
 
 	}
 
@@ -128,21 +135,17 @@ $(function() {
 	// 	$(".az-table__top2").css({ left: $(".az-table__bottom2 .jspPane").css("left")});
 	// });
 
-	var check_enabled = function(checkboxes){
+	var check_enabled = function(){
 		var bool = false;
-		// alert(checkboxes.closest(".js-button-on-off-wrap").html());
-		checkboxes.closest(".js-button-on-off-wrap")
-		.find(".js-button-on-off").each(function(){
+		$(".js-button-on-off").each(function(){
 			if($(this).is(':checked')){
 				bool = true;
 			}
 		});
 		if(bool){
-			checkboxes.closest(".js-button-on-off-wrap")
-			.find(".js-button-on-off-out").removeClass("az-button__disabled");
+			$(".js-button-on-off-out").removeClass("az-button__disabled");
 		} else {
-			checkboxes.closest(".js-button-on-off-wrap")
-			.find(".js-button-on-off-out").addClass("az-button__disabled");
+			$(".js-button-on-off-out").addClass("az-button__disabled");
 		}
 	}
 
@@ -165,7 +168,7 @@ $(function() {
 		}
 	}
 
-	// check_enabled();
+	check_enabled();
 
 	$(".js-checkbox").change(function(){
 		$(".js-check-out").prop("checked", $(this).is(':checked'));
@@ -198,6 +201,32 @@ $(function() {
 		$(this).parents(".az-table-filter__popup").removeClass("az-table-filter__popup_show");
 		return false;
 	});
+
+	if($('.datepicker').length>0){
+		(function($){
+			$.fn.datepicker.dates['ru'] = {
+				days: ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"],
+				daysShort: ["Вск", "Пнд", "Втр", "Срд", "Чтв", "Птн", "Суб"],
+				daysMin: ["Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"],
+				months: ["январь", "февраль", "март", "апрель", "май", "июнь", "июль", "август", "сентябрь", "октябрь", "ноябрь", "декабрь"],
+				monthsShort: ["Янв", "Фев", "Мар", "Апр", "Май", "Июн", "Июл", "Авг", "Сен", "Окт", "Ноя", "Дек"],
+				today: "Сегодня",
+				clear: "Очистить",
+				format: "dd.mm.yyyy",
+				weekStart: 1,
+		    monthsTitle: 'Месяцы'
+			};
+		}(jQuery));
+
+	
+		$('.datepicker').datepicker({
+		    // startDate: '-3d',
+		    language: 'ru',
+		    leftArrow: '<span>asd</span>',
+		    rightArrow: '<span>dsa</span>'
+		});
+	}
+
 
 });
 
