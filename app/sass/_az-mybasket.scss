@@ -207,6 +207,9 @@
 	z-index: 9;
 	top: 100%;	
 	right: 14px;
+	width: 440px;
+	display: none;
+	// top: 20px;
 	&::before{
 		content: "";
 		position: absolute;
@@ -218,6 +221,20 @@
 		border-bottom: 8px solid #fff;
 		border-left: 8px solid transparent;
 		border-top: 8px solid transparent;
+	}
+}
+
+.az-table-filter__popup_show{
+	display: block;
+	animation: show .2s ease;
+}
+
+@keyframes show{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
 	}
 }
 
@@ -359,6 +376,7 @@
 
 .az-basket-popup__buttons{
 	padding: 16px 21px 8px;
+	white-space: normal;
 }
 
 .az-button-grid{
@@ -374,5 +392,17 @@
 
 .az-table__head-td{
 	// position: relative;
-
+	// transform: rotate(0deg);
+	z-index: 2;
 }
+
+// .az-table-filters{
+// 	position: relative;
+// 	font-size: 0;
+// 	.az-table__top{
+// 		height: 0;
+// 	}
+// 	.az-table__head-td{
+// 		height: 1px;
+// 	}
+// }

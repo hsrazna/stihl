@@ -48,17 +48,21 @@ $(function() {
 	// 	$(".az-table__top2").css({ left: $(".az-table__bottom2 .jspPane").css("left")});
 	// });
 
-	var check_enabled = function(){
+	var check_enabled = function(checkboxes){
 		var bool = false;
-		$(".js-button-on-off").each(function(){
+		// alert(checkboxes.closest(".js-button-on-off-wrap").html());
+		checkboxes.closest(".js-button-on-off-wrap")
+		.find(".js-button-on-off").each(function(){
 			if($(this).is(':checked')){
 				bool = true;
 			}
 		});
 		if(bool){
-			$(".js-button-on-off-out").removeClass("az-button__disabled");
+			checkboxes.closest(".js-button-on-off-wrap")
+			.find(".js-button-on-off-out").removeClass("az-button__disabled");
 		} else {
-			$(".js-button-on-off-out").addClass("az-button__disabled");
+			checkboxes.closest(".js-button-on-off-wrap")
+			.find(".js-button-on-off-out").addClass("az-button__disabled");
 		}
 	}
 
@@ -81,7 +85,7 @@ $(function() {
 		}
 	}
 
-	check_enabled();
+	// check_enabled();
 
 	$(".js-checkbox").change(function(){
 		$(".js-check-out").prop("checked", $(this).is(':checked'));
@@ -92,7 +96,7 @@ $(function() {
 	});
 
 	$(".js-button-on-off").change(function(){
-		check_enabled();
+		check_enabled($(this));
 	});
 
 	$(".js-subtable").click(function(){
@@ -102,6 +106,16 @@ $(function() {
 	});
 
 	$(".az-button__disabled").click(function(){
+		return false;
+	});
+
+	$(".az-table-filter").click(function(){
+		$(this).siblings(".az-table-filter__popup").toggleClass("az-table-filter__popup_show");
+		return false;
+	});
+
+	$(".az-basket-popup__close").click(function(){
+		$(this).parents(".az-table-filter__popup").removeClass("az-table-filter__popup_show");
 		return false;
 	});
 

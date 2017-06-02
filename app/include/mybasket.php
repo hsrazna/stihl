@@ -27,7 +27,7 @@
 							    </ul>
 							    <div class="ah-tabs__tabsbox ah-tabsbox ah-cardtabsbox">
 							        <div id="tab-1" class="ah-tabsbox__item">
-							        	<div class="az-kit">
+							        	<div class="az-kit js-button-on-off-wrap">
 							        		<div class="clearfix">
 								        		<div class="az-kit__head">
 										            <h2 class="az-kit__title">Мои корзины</h2>
@@ -134,7 +134,7 @@
 							            </div>
 							        </div>
 							        <div id="tab-2" class="ah-tabsbox__item">
-							        	<div class="az-kit">
+							        	<div class="az-kit js-button-on-off-wrap">
 							        		<div class="clearfix">
 								        		<div class="az-kit__head">
 										            <h2 class="az-kit__title">Корзины в обработке</h2>
@@ -154,7 +154,7 @@
 																<div class="az-table__head-td az-basket__col3">Кем создано <a href="#" class="az-table-filter">фильтр</a></div>
 																<div class="az-table__head-td az-basket__col4">Имя корзины 
 																	<a href="#" class="az-table-filter">фильтр</a>
-																	<div class="az-basket-popup az-table-filter__popup">
+																	<!-- <div class="az-basket-popup az-table-filter__popup js-button-on-off-wrap">
 																		<div class="az-basket-popup__head">
 																			<h3 class="az-basket-popup__title">Имя корзины</h3>
 																			<a href="#" class="az-basket-popup__close az-close">закрыть</a>
@@ -252,7 +252,7 @@
 																			<div class="az-button-grid__item"><a href="#" class="az-button az-button_grey js-button-on-off-out">Сохранить настройки</a></div>
 																			<div class="az-button-grid__item"><a href="#" class="az-button az-button_grey js-button-on-off-out">Очистить фильтр</a></div>
 																		</div>
-																	</div>
+																	</div> -->
 																</div>
 																<div class="az-table__head-td az-basket__col5">Единица <a href="#" class="az-table-filter">фильтр</a></div>
 																<div class="az-table__head-td az-basket__col6">Цена <a href="#" class="az-table-filter">фильтр</a></div>
@@ -327,12 +327,12 @@
 									            			<div class="az-pagination__item"><a href="#" class="az-pagination__right2"> >> </a></div>
 									            		</div>
 									            	</div>
-								            	</form>
-								            </div>
+									            </div>
+							            	</form>
 							            </div>
 							        </div>
 							        <div id="tab-3" class="ah-tabsbox__item">
-							            <div class="az-kit">
+							            <div class="az-kit js-button-on-off-wrap">
 							        		<div class="clearfix">
 								        		<div class="az-kit__head">
 										            <h2 class="az-kit__title">Корзины в обработке</h2>

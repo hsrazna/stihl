@@ -61,7 +61,11 @@
 }
 
 .az-kit__table{
-	height: 386px;
+	padding-top: 40px;
+	height: 386px - 40px;
+	box-sizing: content-box;
+	padding-bottom: 200px;
+	margin-bottom: -200px;
 	.jspPane{
 		min-width: 100%;
 	}
@@ -69,7 +73,7 @@
 		min-width: 100%;
 	}
 	.az-table__row{
-		min-width: 800px;
+		min-width: 860px;
 		width: 100%;
 	}
 	.az-table__td{
