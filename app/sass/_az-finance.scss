@@ -1,0 +1,72 @@
+.az-h3title_2{
+	// margin: 5px 0;
+	margin: 7px 0 0;
+}
+.az-period{
+	font-size: 0;
+}
+.az-period__date{
+	display: inline-block;
+	vertical-align: middle;
+	width: 143px;
+}
+.az-goods-search__right_wide{
+	width: 60%;
+	text-align: right;
+	@include desktop(992){
+		width: 100%;
+		margin: 16px 0;
+		padding: 0 16px;
+		text-align: left;
+	}
+}
+.az-goods-search__left_narrow{
+	width: 30%;
+	@include desktop(992){
+		width: 100%;
+		margin: 16px 0;
+		padding: 0 16px;
+	}
+}
+
+.az-period__item{
+	margin: 10px 0;
+	@include mobile(768){
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0;
+	}
+}
+
+.az-period__text{
+	font-size: 12px;
+	font-family: "RobotoRegular";
+	color: #565f66;
+	min-width: 25px;
+	padding-right: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	@include mobile(768){
+		padding: 0 10px;
+		&.az-period__text_pad{
+			padding: 0 10px 0 0;
+		}
+	}
+}
+
+.az-finance__col1{
+	width: 66px;
+}
+.az-finance__col2, .az-finance__col3, .az-finance__col4, .az-finance__col5, .az-finance__col6, .az-finance__col7{
+	width: calc(16.66% - 11px);
+}
+
+.az-mt15{
+	margin-top: 15px;
+}
+
+.az-finance-table{
+	.az-table__row{
+		min-width: 1050px;
+	}
+}

@@ -24,7 +24,7 @@
 							        <li class="ah-cardtabs__item ah-basket__item"><a href="#tab-2" class="ah-tabsheader-link ah-cardtabs-link ah-cardlink1 ah-tablink2">Товары</a></li>
 							    </ul>
 							    <div class="ah-tabs__tabsbox ah-tabsbox ah-cardtabsbox">
-							        <div id="tab-2" class="ah-tabsbox__item">
+							        <div id="tab-1" class="ah-tabsbox__item">
 										<div class="row">
 								        	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 												<div class="ah-cardtab1-wrapp">
@@ -155,7 +155,7 @@
 											</div>
 										</div>
 							        </div>
-							        <div id="tab-1" class="ah-tabsbox__item">
+							        <div id="tab-2" class="ah-tabsbox__item">
 							            <div class="az-kit">
 							        		<div class="clearfix">
 								        		<div class="az-kit__head">
