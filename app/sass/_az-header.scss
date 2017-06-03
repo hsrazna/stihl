@@ -337,6 +337,14 @@
 	// min-height: 405px !important;
 }
 
+.az-header-popup_grey{
+	background: #f5f3f2;
+	&::before{
+		border-right: 8px solid #f5f3f2;
+		border-bottom: 8px solid #f5f3f2;
+	}
+}
+
 .az-header-popup__head{
 	position: relative;
 	.ah-topbox__spanright{
@@ -395,4 +403,14 @@
 .az-show{
 	display: block;
 	animation: show .3s ease;
+}
+
+.az-header-popup__button{
+	padding-bottom: 32px;
+	width: 180px;
+	margin: 0 auto;
+}
+
+.az-header-popup__box{
+	border: 0 !important;
 }

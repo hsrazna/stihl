@@ -108,7 +108,23 @@
 						</div>
 					</li>
 					<li class="az-control__item">
-						<a href="#" class="az-control__basket">Корзины</a>
+						<a href="#" class="az-control__basket js-click">Корзины</a>
+						<div class="az-header-popup az-header-popup_grey js-show">
+							<a href="#" class="az-header-popup__close">закрыть</a>
+							<div class="az-header-popup__box ah-managerinfo">
+								<div class="ah-managerinfo__imgbox">
+									<img src="img/ah-manager-img.jpg" class="img-responsive" alt="manager">
+								</div>
+								<div class="ah-managerinfo__content">
+									<span class="ah-managerinfo-span">Менеджер Ирина</span>
+									<span class="ah-managerinfo-span1">Телефон:<span>8 (980) 670-90-90</span></span>
+									<span class="ah-managerinfo-span1">Email:<span>irinam@stihl.com</span></span>
+								</div>
+							</div>
+							<div class="az-header-popup__button">
+								<a href="#" class="az-button">Зайти в чат</a>
+							</div>
+						</div>
 					</li>
 					<li class="az-control__item hidden-xs">
 						<a href="#" class="az-control__exit az-exit">Выйти</a>
