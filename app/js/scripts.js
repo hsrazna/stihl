@@ -86,6 +86,16 @@ $(function() {
 });
 
 $(function() {
+	$(".js-click").click(function(){
+		if(window.matchMedia( "(min-width: 767px)" ).matches){
+			$(this).siblings(".js-show").toggleClass("az-show");
+		}
+	});
+
+	$(".az-header-popup__close").click(function(){
+		$(this).closest(".js-show").toggleClass("az-show");
+	});
+
 	$(".az-menu__icon, .az-menu__link_close").click(function(){
 		$(".az-menu__list").toggleClass("az-menu__list_on");
 		return false;

@@ -112,8 +112,8 @@
 									            			<div class="az-pagination__item"><a href="#" class="az-pagination__right2"> >> </a></div>
 									            		</div>
 									            	</div>
-								            	</form>
-								            </div>
+									            </div>
+							            	</form>
 							            </div>
 							        </div>
 							    </div>
