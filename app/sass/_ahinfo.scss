@@ -1,0 +1,188 @@
+@import "vars";
+
+
+
+
+
+.ah-info-leftbox{
+	display: block;
+	width: 100%;
+	@include mobile(1200){
+		display: inline-block;
+		width: 50%;
+	}
+}
+.ah-info-rightbox{
+	display: block;
+	width: 100%;
+	margin-top: 0px;
+	@include mobile(768){
+		margin-top: 25px;
+	}
+	@include mobile(1200){
+		display: inline-block;
+		width: 50%;
+		margin-top: 0px;
+	}
+}
+.ah-info-rightbox1{
+	display: block;
+	width: 100%;
+	// margin-top: 0px;
+	@include mobile(1200){
+		display: inline-block;
+		width: 50%;
+	}
+}
+.ah-kit{
+	padding: 15px 32px;
+}
+.ah-infowrapp{
+	background: #fff;
+	box-shadow: 0 8px 16px rgba(24, 34, 41, 0.28);
+	margin-bottom: 60px;
+}
+.ah-info-bottombox{
+	margin-bottom: 50px;
+}
+.ah-info-title{
+	display: block;
+	font-family: "RobotoBold";
+	color: #182229;
+	font-size: 14px;
+}
+.ah-info-contentbox{
+	width: 100%;
+	font-size: 0;
+}
+.ah-info-contentitem{
+	display: block;
+	width: 100%;
+	vertical-align: top;
+	margin: 10px 0px;
+	@include mobile(768){
+		display: inline-block;
+		width: 50%;
+		margin: 0;
+	}
+}
+.ah-info-contentitem2{
+	display: block;
+	width: 100%;
+	vertical-align: top;
+	@include mobile(480){
+		display: inline-block;
+		width: 50%;
+	}
+}
+.ah-info-contentitem1{
+	margin: 20px 0px;
+}
+.ah-info-imgbox{
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	@include mobile(768){
+		width: 30%;
+	}
+	@include mobile(992){
+		width: 20%;
+	}
+	@include mobile(1200){
+		width: 35%;
+	}
+}
+.ah-info-imgbox1{
+	display: inline-block;
+	width: 19%;
+	vertical-align: top;
+	@include mobile(480){
+		width: 21%;
+	}
+	@include mobile(768){
+		width: 13%;
+	}
+	@include mobile(992){
+		width: 10%;
+	}
+	@include mobile(1200){
+		width: 15%;
+	}
+}
+.ah-info-cont{
+	display: inline-block;
+	width: 65%;
+	vertical-align: top;
+	padding-left: 12px;
+}
+.ah-info-cont1{
+	display: inline-block;
+	width: 79%;
+	vertical-align: top;
+	padding-left: 12px;
+	@include mobile(768){
+		width: 85%;
+	}
+}
+.ah-info-contspan{
+	display: block;
+	font-family: "RobotoBold";
+	color: #182229;
+	font-size: 12px;
+}
+.ah-info-contspan1{
+	display: block;
+	font-family: "RobotoRegular";
+	color: #565f66;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+.ah-info-contspan2{
+	display: block;
+	font-family: "RobotoBold";
+	color: #f37a1f;
+	font-size: 12px;
+	&:hover, &:active, &:focus{
+		// text-decoration: none;
+		color: #f37a1f;
+	}
+}
+.ah-info-titlebox{
+	margin-bottom: 25px;
+}
+.ah-info-titlebox1{
+	margin-bottom: 0px;
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
