@@ -7,11 +7,67 @@
 
 
 
-
-
-
-
-
+.ah-chat-wrapp{
+	padding: 30px 40px;
+}
+.ah-chat-subtitle{
+	display: block;
+	font-family: "RobotoRegular";
+	color: #565f66;
+	font-size: 14px;
+}
+.ah-chat-userbox{
+	padding: 25px 60px;
+	background: #f5f3f2;
+}
+.ah-chat-ubox{
+	width: 100%;
+	font-size: 0;
+}
+.ah-chat-imgbox{
+	display: inline-block;
+	width: 9%;
+	vertical-align: top;
+}
+.ah-chat-ucontent{
+	display: inline-block;
+	width: 91%;
+	vertical-align: top;
+	padding-left: 15px;
+	padding-top: 10px;
+}
+.ah-chat-uspan{
+	display: block;
+	font-family: "RobotoBold";
+	color: #182229;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+.ah-chat-uspan1{
+	display: block;
+	color: #565f66;
+	font-family: "RobotoRegular";
+	font-size: 14px;
+	span{
+		display: inline-block;
+		color: #182229;
+		padding-left: 7px;
+	}
+}
+.ah-chat-wrapp1{
+	width: 100%;
+	max-width: 750px;
+	margin: 0 auto;
+}
+.ah-chat__box{
+	max-width: 600px;
+}
+.ah-chat-form{
+	input[type=text]{
+	    max-width: 570px;
+	    height: 50px;
+	}
+}
 
 
 
