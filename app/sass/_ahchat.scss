@@ -17,8 +17,11 @@
 	font-size: 14px;
 }
 .ah-chat-userbox{
-	padding: 25px 60px;
+	padding: 15px 20px;
 	background: #f5f3f2;
+	@include mobile(480){
+		padding: 25px 60px;
+	}
 }
 .ah-chat-ubox{
 	width: 100%;
@@ -26,15 +29,27 @@
 }
 .ah-chat-imgbox{
 	display: inline-block;
-	width: 9%;
+	width: 30%;
 	vertical-align: top;
+	@include mobile(768){
+		width: 15%;
+	}
+	@include mobile(992){
+		width: 9%;
+	}
 }
 .ah-chat-ucontent{
 	display: inline-block;
-	width: 91%;
+	width: 70%;
 	vertical-align: top;
 	padding-left: 15px;
 	padding-top: 10px;
+	@include mobile(768){
+		width: 85%;
+	}
+	@include mobile(992){
+		width: 91%;
+	}
 }
 .ah-chat-uspan{
 	display: block;
@@ -47,7 +62,10 @@
 	display: block;
 	color: #565f66;
 	font-family: "RobotoRegular";
-	font-size: 14px;
+	font-size: 12px;
+	@include mobile(480){
+		font-size: 14px;
+	}
 	span{
 		display: inline-block;
 		color: #182229;
@@ -60,12 +78,19 @@
 	margin: 0 auto;
 }
 .ah-chat__box{
-	max-width: 600px;
+	@include mobile(768){
+		max-width: 600px !important;
+	}
 }
 .ah-chat-form{
 	input[type=text]{
-	    max-width: 570px;
-	    height: 50px;
+	    @include mobile(768){
+			max-width: 570px !important;
+			margin-left: 9% !important;
+		}
+		@include mobile(768){
+			margin-left: 22%;
+		}
 	}
 }
 
