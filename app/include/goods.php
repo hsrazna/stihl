@@ -155,7 +155,8 @@
 											</div>
 										</div>
 							        </div>
-							        <div id="tab-2" class="ah-tabsbox__item">
+							        <div id="tab-2" class="ah-tabsbox__item ah-cardtab1-wrapp">
+							        <div class="row">
 							            <div class="az-kit">
 							        		<div class="clearfix">
 								        		<div class="az-kit__head">
@@ -280,6 +281,7 @@
 									            	</div>
 									            </div>
 							            	</form>
+							            </div>
 							            </div>
 							        </div>
 							    </div>
