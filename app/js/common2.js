@@ -180,6 +180,21 @@ $(function() {
 		return false;
 	});
 
+	// if($('.ah-tabsheader2').length>0){
+
+	// 	var tabContainers = $('.ah-tabsbox > div');
+	//     tabContainers.hide().filter(':first').show();
+	 
+	//     $('ul.ah-tabsheader2 li a').click(function(){
+	//         tabContainers.hide();
+	//         tabContainers.filter(this.hash).show();
+	//         $('ul.ah-tabsheader a').parent('li').removeClass('selected');
+	//         $(this).parent('li').addClass('selected');
+	//         return false;
+	//         }).filter(':first').click();
+	     
+ //    }
+
 });
 
 function setTableBody()

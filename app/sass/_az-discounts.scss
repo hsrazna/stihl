@@ -1,0 +1,191 @@
+.az-discounts{
+	background: #fff;
+	padding: 15px;
+	@include mobile(768){
+		padding: 15px 23px 30px;
+	}
+	@include mobile(1600){
+		padding: 25px 40px 80px;
+	}
+}
+
+.az-discount-search{
+	font-size: 0;
+	background: #f5f3f2;
+	padding: 1px 15px;
+}
+
+.az-discount-search__left{
+	margin: 15px 0;
+	font-size: 0;
+	@include mobile(992){
+		width: 50%;
+		float: left;
+	}
+}
+
+.az-discount-search__right{
+	margin: 15px 0;
+	@include mobile(992){
+		width: 50%;
+		float: right;
+		max-width: 456px;
+	}
+}
+
+.az-discount__text{
+	text-overflow: ellipsis;
+	width: 40%;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 12px;
+	color: #565f66;
+	white-space: nowrap;
+	overflow: hidden;
+	padding-right: 5px;
+	font-family: "RobotoRegular";
+	@include mobile(480){
+		width: 50%;
+		padding-right: 12px;
+	}
+	@include mobile(992){
+		width: auto;
+	}
+}
+
+.az-discount__select{
+	display: inline-block;
+	vertical-align: middle;
+	width: 60%;
+	@include mobile(480){
+		width: 50%;
+	}
+	@include mobile(992){
+		width: 204px;
+	}
+}
+
+.az-year{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px auto;
+	font-size: 0;
+	text-align: center;
+	@include mobile(480){
+		width: 160px;
+	}
+	@include mobile(992){
+		width: 120px;
+	}
+}
+
+
+
+.az-year__center{
+	font-family: "RobotoBold";
+	font-size: 16px;
+	color: #182229;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.az-year__left{
+	margin-right: 25px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.az-year__right{
+	margin-left: 25px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.az-discount__month{
+	max-height: 880px;
+	min-height: 880px;
+}
+
+.az-month{
+	margin-bottom: 25px;
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
+
+.az-month__title{
+	font-family: "RobotoBold";
+	font-size: 16px;
+	color: #182229;
+	margin: 0 0 15px 0;
+}
+
+.az-tabs{
+	position: relative;
+	min-width: 600px;
+	// min-height: 300px;
+	.ah-tabs{
+		padding-top: 28px;
+	}
+	.ah-tabsbox{
+		height: auto;
+		position: relative;
+		z-index: 3;
+	}
+}
+
+.az-tabheader-wrap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.az-tabheader{
+	display: table !important;
+	width: 100%;
+	border-collapse: collapse;
+	height: 100%;
+}
+
+.az-tabheader__item{
+	display: table-cell;
+	width: 10000px;
+	font-size: 12px;
+	border-left: 1px solid #d1d0cf;
+	border-right: 1px solid #d1d0cf;
+	text-align: center;
+	// vertical-align: top;
+	height: 100%;
+}
+
+.az-tabheader__link{
+	color: #182229;
+	font-family: "RobotoMedium";
+	font-size: 12px;
+	text-decoration: none;
+	&:active, &:focus{
+		color: #182229;
+		text-decoration: none;
+	}
+	&:hover{
+		color: #182229;
+		text-decoration: none;
+	}
+}
+
+.az-month__item{
+	height: 38px;
+	width: 100%;
+	background: #f37a1f;
+	overflow: hidden;
+	line-height: 38px;
+	color: #fff;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-family: "RobotoMedium";
+	padding: 0 25px;
+	margin-top: 4px;
+}
