@@ -107,6 +107,10 @@
 	min-height: 880px;
 }
 
+.az-months{
+	min-width: 800px;
+}
+
 .az-month{
 	margin-bottom: 25px;
 	&:last-child{
@@ -123,7 +127,7 @@
 
 .az-tabs{
 	position: relative;
-	min-width: 600px;
+	
 	// min-height: 300px;
 	.ah-tabs{
 		padding-top: 28px;
@@ -131,7 +135,7 @@
 	.ah-tabsbox{
 		height: auto;
 		position: relative;
-		z-index: 3;
+		z-index: 0;
 	}
 }
 

@@ -21,19 +21,22 @@ $(function() {
 
 	if($('.ah-tabsheader').length>0){
 
-		var tabContainers = $('.ah-tabsbox > div');
+		$('.ah-tabsbox').each(function(){
+
+			var tabContainers = $(this).children('div');
 	    tabContainers.hide().filter(':first').show();
 	 
-	    $('ul.ah-tabsheader li a').click(function(){
+	    $(this).parents('.ah-tabs').find('ul.ah-tabsheader li a').click(function(){
 	        tabContainers.hide();
 	        tabContainers.filter(this.hash).show();
-	        $('ul.ah-tabsheader a').parent('li').removeClass('selected');
+	        $(this).parents('ul.ah-tabsheader').find('a').parent('li').removeClass('selected');
 	        $(this).parent('li').addClass('selected');
 	        return false;
-	        }).filter(':first').click();
+      }).filter(':first').click();
 	     
-    }
+		});
 
+  }
 
 	if($('.ah-select1').length>0){
 	 
